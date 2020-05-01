@@ -2,7 +2,7 @@
 
 Xi'an Jiaotong University, PRC
 
-<img src="https://github.com/ClimbingLeo/chenyuyan.github.io/blob/master/img/%E9%82%AE%E7%AE%B1.png" alt="邮箱" style="zoom:10%;" /> <leo-chenyu.yan@stu.xjtu.edu.cn> 
+<img src="img/mail.png" height="30" width="30;" /> <leo-chenyu.yan@stu.xjtu.edu.cn> 
 
 ## Education Background
 
@@ -26,7 +26,7 @@ GPA: 3.7, 1/91
 
 ## Publications 
 
-<img src="C:\Users\Leo__\Desktop\timg.jpg" alt="timg" style="zoom:8%;" /> [My Research Gate](https://www.researchgate.net/profile/Chenyu_Yan4) 
+<img src="img/ResearchGate.jpg" height="30" width="40;" /> [My Research Gate](https://www.researchgate.net/profile/Chenyu_Yan4) 
 
 1. Min DM, <u>**Yan CY**</u>, Huang Y, et.al. Dielectric and carrier transport properties of silicone rubber degraded by gamma irradiation[J]. Polymers, 2016, 9(10): 1-15 (SCI: 000414913800071; EI: 20174304306504)
 2. Min DM, <u>**Yan CY**</u>, Mi R, et.al. Carrier Transport and Molecular Displacement Modulated dc Electrical Breakdown of Polypropylene Nanocomposites[J]. Polymers, 2018, 10(11): 1-20 (SCI: 000454456800029; EI: 20184606058526) 
@@ -73,13 +73,13 @@ GPA: 3.7, 1/91
 
 - **Influence of molecular chain motion property in interfacial regions on dc breakdown property of polyethylene nanocomposites (National Natural Science Foundation of China) ** 
 
-<img src="D:\temporary\出国申请2019\Chenyu Yan.assets\NSFC-1587792241641.jpg" alt="NSFC" style="zoom:50%;" />
+<img src="img/NSFC.jpg" height="150" width="190;" />
 
 ​	This project was originated from the need for enhancing breakdown property of polyethylene to meet up with its demand for high voltage power transmission. Based on the motion property of molecular chains at the interfacial regions, this study investigated its impact on dc breakdown property of polyethylene nanocomposites and revealed the mechanism of nanocomposite breakdown. I'm responsible for experiments progress and paper writing(academic paper and project report).
 
 - **Insulating property and its regularity of dielectrics in current transfer and energy dissipation (National Key Basic Research Program (973) sub-project)** 
 
-​                                                                             <img src="chenyuyan.github.io/img/973.jpg" alt="973" style="zoom:25%;" />     
+​                                                                             <img src="img/973.jpg" height="150" width="190;" />     
 
 ​	This project investigated the coupling impact of space charge accumulation, transient arc microparticle bombardment, metal particle deposition on the falshover property of fractrue insulating system in the process of dc arc switching, and revealed its influence regularity and failure mechanism. Based on nanocomposition modification tech, study figured out the the methods to suppress the space charge accumulation and metal particle deposition in the fracture insulating system and proposed approaches to resist flashover damage and aging. This research provided the theoretical and technology support for enhancing the voltage, current as well as lifespan of circuit breaker. I was mainly involved in the modeling of energy accumulation and flashover process, and investigated the influence of charge transport parameters and temperature on flashover behavior.
 
@@ -91,13 +91,13 @@ GPA: 3.7, 1/91
 
 **State Grid Corporation of China		Department of Information and Internet		2019.09 - Now** 
 
-​                                                                    <img src="D:\temporary\出国申请2019\Chenyu Yan.assets\SGCC.jpg" alt="SGCC" style="zoom:30%;" />	
+​                                                                    <img src="img\SGCC.jpg"  height="150" width="240;"  />	
 
 ​	I worked in State Grid Corporation of China (SGCC), known as the largest corporation in China, for half a year. In this period, I worked as a member in Department of Information and Internet, which focuses on data collection and processing to propose practical suggestions for the development of corporation. I have been involved in a project to predict short-term load of grid power, including day load forecast and workload forecast. This work aimed at suppressing illegal electric larceny especially in corporation with relatively higher demand for electric resources, so that the lost profits can be reclaimed and SGCC also has a greater power to better distribute the power transmission. In this project, I was responsible for forecast modeling and data processing, which provided the basis of prediction. Specifically, with the previous data of electric usage as the input, model was based on RNN and LSTM model to forecast the electric demand for following 7 days. By comparing with realistic values, it was proved that model had a relatively high precision and value of MAPE was around 2.4%.
 
 **Asea Brown Boveri Ltd., China     Electrical Engineer Internship    2016.05-2016.09** 
 
-​                                                                           	<img src="D:\temporary\出国申请2019\Chenyu Yan.assets\ABB.jpg" alt="ABB" style="zoom:15%;" />
+​                                                                           	<img src="img\ABB.png" height="120" width="200;" />
 
 ​	I was a internship of technology department in ABB for four months. During this period, I have the initial understanding of industrialization of power system, especially the power capacitor. With an increase in familiarity with equipment, I have a more lucid concept for structure of power system and commercial market in this field. Plus, with the support of investigation in the equipment workshop, I learned the processing flow of capacitor, starting from the polypropylene film fabrication to the component assembly. In addition, I also got an opportunity to be engaged in the technical discussion with foreign experts, which largely bring inspiration to my further exploration on the research. Through intensive discussion, I found that increasing demand for high voltage transmission had been an urgent need for the grids in China, property of electric breakdown, however, was a key factor that determined the performance of power capacity. Therefore, when choosing the major field in my master phase, I forwardly approached to my professor and expressed my plan on the research of breakdown property of polypropylene.
 
