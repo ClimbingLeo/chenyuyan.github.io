@@ -6,23 +6,9 @@ Xi'an Jiaotong University, PRC
 
 ## Education Background
 
-**2016.09 - 2019.06**  
+I received BS degree with Electrical Engineering and Automation (GPA: 3.7, 1/91) from [Northwestern Polytechnical University(NPU)](http://zdhxy.nwpu.edu.cn/English/English/Home.htm) in People Republic of China(PRC) in June 2016 and the topic of thesis is "Design of large scale Lithium-ion battery stack management system based on ARM". I received MS degree with Electrical Engineering (GPA: 3.7, 2/51) from [Xi'an Jiaotong University(XJTU)](http://ee.xjtu.edu.cn/English_Version1/home.htm) in PRC in June 2019 and the topic of thesis is "Research on Electrical Breakdown Property of Polypropylene Nanocomposite Dielectric Modulated by Charge Transport and Molecular Displacement". 
 
-Master   [School of Electrical Engineering, Xi'an Jiaotong University](http://ee.xjtu.edu.cn/English_Version1/home.htm) 
-
-Thesis:   Research on Electrical Breakdown Property of Polypropylene Nanocomposite Dielectric Modulated by Charge Transport and Molecular Displacement 
-
-Research: power system, nanocomposite breakdown, 
-
-GPA: 3.7, 2/45
-
-**2012.09 - 2016.06**
-
-Bachelor  [School of Automation, Northwestern Polytechnical University](http://zdhxy.nwpu.edu.cn/English/English/Home.htm)  
-
-Thesis:   Design of large scale Lithium-ion battery stack management system based on ARM
-
-GPA: 3.7, 1/91
+During master's study,  I was in Prof. [Shengtao Li](http://gr.xjtu.edu.cn/web/sli/23;jsessionid=3EE36B730115F7EC2AB0CDF2C0723015)'s group and my  research focused on high voltage electric transmission, electrical property of nanocomposite  and charge transport modeling calculation. In the past 3 years, I have a relatively good understanding of high voltage transmission, electrical material (especially nano material) fabrication characterization and testing, data processing, as well as modeling calculation. Under my prof. [Daomin Min](http://gr.xjtu.edu.cn/web/sli/22)'s guidance, I gradually formulated ability to deal with academic research and got a deeper insight towards the electrical engineering. During this period, I was involved in 3 projects and have 15 papers published.
 
 ## Publications 
 
@@ -44,7 +30,7 @@ GPA: 3.7, 1/91
 14. Cui HZ, Xing ZL, Wu QZ, <u>**Yan CY**</u>, Mi R, Min DM, and Li ST. Accumulation of space charges in epoxy resin nanodielectrics influenced by Poole-Frenkel effect, International Conference on novel functional materials 2019 
 15. Kang WB, Meng SX, Cui HZ, <u>**Yan CY**</u>, Min DM, Li ST. Trap and dielectric property evolution of silicone rubber insulation under power frequency voltage superimposed harmonic [J]. High voltage (Chinese)    
 
-- **Min DM is my professor in the lab**
+- **Min DM is my professor in the group**
 
 ## Scholarship and Awards 
 
@@ -66,8 +52,9 @@ GPA: 3.7, 1/91
 5. The 5th session of MathorCup Mathematical Contest in Modeling, Outstanding award    2015.06
 6. International Mathematical Contest in Modeling (MCM), Honorable mention    2015.03
 7. National Mathematical Contest in Modeling, Outstanding award    2014.11
-8. Excellent world teenager in Japan, Korea and China forum    2014.09
-9. Merit student award    2015.11 & 2014.11 & 2013.11
+8. Best debater in debate competition in China   2014.10
+9. Excellent world teenager in Japan, Korea and China forum    2014.09
+10. Merit student award    2015.11 & 2014.11 & 2013.11
 
 ## Project Experience ##
 
