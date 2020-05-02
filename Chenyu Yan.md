@@ -1,6 +1,6 @@
 # Chenyu Yan
 
-Xi'an Jiaotong University, PRC
+MS, Xi'an Jiaotong University, PRC
 
 <img src="img/mail.png" height="25" width="30;" /> <leo-chenyu.yan@stu.xjtu.edu.cn> 
 
