@@ -91,7 +91,7 @@ This project was originated from the need that power equipment like cable and bu
 
 **State Grid Corporation of China		Department of Information and Internet		2019.09 - Now** 
 
-![ ](img/SGCC.jpg)
+<img src="img/SGCC.jpg" height="150" width="240;" div align = "center"/>
 
 I worked in State Grid Corporation of China (SGCC), known as the largest corporation in China, for half a year. In this period, I worked as a member in Department of Information and Internet, which focuses on data collection and processing to propose practical suggestions for the development of corporation. I have been involved in a project to predict short-term load of grid power, including day load forecast and workload forecast. This work aimed at suppressing illegal electric larceny especially in corporation with relatively higher demand for electric resources, so that the lost profits can be reclaimed and SGCC also has a greater power to better distribute the power transmission. In this project, I was responsible for forecast modeling and data processing, which provided the basis of prediction. Specifically, with the previous data of electric usage as the input, model was based on RNN and LSTM model to forecast the electric demand for following 7 days. By comparing with realistic values, it was proved that model had a relatively high precision and value of MAPE was around 2.4%.
 
