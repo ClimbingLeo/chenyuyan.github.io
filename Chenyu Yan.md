@@ -73,27 +73,33 @@ GPA: 3.7, 1/91
 
 - **Influence of molecular chain motion property in interfacial regions on dc breakdown property of polyethylene nanocomposites (National Natural Science Foundation of China) ** 
 
-<img src="img/NSFC.jpg" height="150" width="190;" />
+<div align=center><img src="img/NSFC.jpg" height="150" width="190;" />
 
 ​	This project was originated from the need for enhancing breakdown property of polyethylene to meet up with its demand for high voltage power transmission. Based on the motion property of molecular chains at the interfacial regions, this study investigated its impact on dc breakdown property of polyethylene nanocomposites and revealed the mechanism of nanocomposite breakdown. I'm responsible for experiments progress and paper writing(academic paper and project report).
 
 - **Insulating property and its regularity of dielectrics in current transfer and energy dissipation (National Key Basic Research Program (973) sub-project)** 
 
-​                                                                             <img src="img/973.jpg" height="150" width="190;" />     
+​                                                                             <img src="img/973.jpg" height="130" width="180;" />     
 
-​	This project investigated the coupling impact of space charge accumulation, transient arc microparticle bombardment, metal particle deposition on the falshover property of fractrue insulating system in the process of dc arc switching, and revealed its influence regularity and failure mechanism. Based on nanocomposition modification tech, study figured out the the methods to suppress the space charge accumulation and metal particle deposition in the fracture insulating system and proposed approaches to resist flashover damage and aging. This research provided the theoretical and technology support for enhancing the voltage, current as well as lifespan of circuit breaker. I was mainly involved in the modeling of energy accumulation and flashover process, and investigated the influence of charge transport parameters and temperature on flashover behavior.
+​	This project investigated the coupling impact of space charge accumulation, transient arc micro particle bombardment, metal particle deposition on the falshover property of fractrue insulating system in the process of dc arc switching, and revealed its influence regularity and failure mechanism. Based on nanocomposition modification tech, study figured out the the methods to suppress the space charge accumulation and metal particle deposition in the fracture insulating system and proposed approaches to resist flashover damage and aging. This research provided the theoretical and technology support for enhancing the voltage, current as well as lifespan of circuit breaker. I was mainly involved in the modeling of energy accumulation and flashover process, and investigated the influence of charge transport parameters and temperature on flashover behavior.
 
-- **Charge transport property in silicone rubber under harmonic ageing (Project of China Electric Power Research Institute)** 
+- **Charge transport property in silicone rubber under harmonic aging (Project of China Electric Power Research Institute)** 
 
-​    This project was originated from the need that power equipment like cable and bush are easier to be aged under the high-order harmonics, which hence deteriorated the performance of power system. The study, taking the silicon rubber from the outer coat of cable terminals and the insulating oil paper in the bush as the research objects, quantificationally manifested the aging status and summarized the insulating material deterioration regularity. In addition, aging model for cable and bush were proposed to predict their odd lifespans and the mechanism of aging have been demonstrated. I was responsible for experiment design, experiment accomplishment, modeling calculation and paper writing.
+​    This project was originated from the need that power equipment like cable and bush are easier to be aged under the high-order harmonics, which hence deteriorated the performance of power system. The study, taking the silicon rubber from the outer coat of cable terminals and the insulating oil paper in the bush as the research objects, quantativelly manifested the aging status and summarized the insulating material deterioration regularity. In addition, aging model for cable and bush were proposed to predict their odd lifespans and the mechanism of aging have been demonstrated. I was responsible for experiment design, experiment accomplishment, modeling calculation and paper writing.
 
 ## Work Experience and Internship ## 
 
 **State Grid Corporation of China		Department of Information and Internet		2019.09 - Now** 
 
-​                                                                    <img src="img\SGCC.jpg"  height="150" width="240;"  />	
+```html
+                                                             <img src="img\SGCC.jpg"  height="150" width="240;"  />
+```
 
-​	I worked in State Grid Corporation of China (SGCC), known as the largest corporation in China, for half a year. In this period, I worked as a member in Department of Information and Internet, which focuses on data collection and processing to propose practical suggestions for the development of corporation. I have been involved in a project to predict short-term load of grid power, including day load forecast and workload forecast. This work aimed at suppressing illegal electric larceny especially in corporation with relatively higher demand for electric resources, so that the lost profits can be reclaimed and SGCC also has a greater power to better distribute the power transmission. In this project, I was responsible for forecast modeling and data processing, which provided the basis of prediction. Specifically, with the previous data of electric usage as the input, model was based on RNN and LSTM model to forecast the electric demand for following 7 days. By comparing with realistic values, it was proved that model had a relatively high precision and value of MAPE was around 2.4%.
+```html
+<div align=center><img src="img/NSFC.jpg" height="150" width="190;" />
+```
+
+I worked in State Grid Corporation of China (SGCC), known as the largest corporation in China, for half a year. In this period, I worked as a member in Department of Information and Internet, which focuses on data collection and processing to propose practical suggestions for the development of corporation. I have been involved in a project to predict short-term load of grid power, including day load forecast and workload forecast. This work aimed at suppressing illegal electric larceny especially in corporation with relatively higher demand for electric resources, so that the lost profits can be reclaimed and SGCC also has a greater power to better distribute the power transmission. In this project, I was responsible for forecast modeling and data processing, which provided the basis of prediction. Specifically, with the previous data of electric usage as the input, model was based on RNN and LSTM model to forecast the electric demand for following 7 days. By comparing with realistic values, it was proved that model had a relatively high precision and value of MAPE was around 2.4%.
 
 **Asea Brown Boveri Ltd., China     Electrical Engineer Internship    2016.05-2016.09** 
 
