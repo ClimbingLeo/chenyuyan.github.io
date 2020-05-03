@@ -94,15 +94,15 @@ During the learning and research in past few years, I had a deeper insight into 
 
 1. Data processing and modeling
 
-   Mathematical model competition and previous research helps to form a good sense of mathematical thinking and modeling basis. I can adroitly use data processing software including Python, Origin, SPSS, MATLAB, etc., which provides a good basis for the accomplishment of paper. Productive data processing and practical models both can pave the way for a clearer demonstration and thus can convey significant messages to the audience.
+   Mathematical model competition and previous research helps to form a good sense of mathematical thinking and modeling basis. I can adroitly use data processing software including Python, Origin, SPSS, MATLAB, etc., which provides a good basis for the accomplishment of paper. Productive data processing and practical models both can pave the way for a clearer demonstration and thus can convey significant messages to the audience. In addition, I'm also learning machine learning and data science on Coursera, which can bring positive contributions to my following study in Ph.D phase.
 
 1. Material fabrication and experiment
 
-   I'm familiar with the nanomaterial fabrication, characterization and testing process. Also, due to considerate understanding of theory of experiment method and equipment, corresponding analysis can be conducted appropriately.  
+   I'm familiar with the nanomaterial fabrication, characterization and testing process. Also, due to considerate understanding of theory of experiment method and equipment, corresponding analysis can be conducted appropriately.  Moreover, I'm able to get familiar with new equipment if research needs.
 
-1. Experience in dealing with paper
+1. Experience in dealing with experiment & paper
 
-   Previous work makes me clearly know the layout of the paper and lots of details that need to be paid attention, which can guarantee the quality and productivity of my research in PhD phase.
+   Previous work makes me clearly know the layout of the paper and lots of details that need to be paid attention, which can guarantee the quality and productivity of my research in PhD phase. Additionally, I believe that yields in my master can also prove that I can efficiently cope with paper work. In Daomin Min's group, on the basis of discussion with my professor, I can independently design my research, including research highlight, route, structure of experiments, modeling program and paper writing. 
 
    
 
