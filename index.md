@@ -112,13 +112,9 @@ The thesis correlate the characterization and testing results, namely morphology
 
 By comparing previous analysis and simulation results with the CTMD model, mechanism of PP/Al2O3 nanocomposite has been revealed. It turns that nanofiller introduced interfacial regions to the neat material. Therefore, trap distribution in the bulk of material is altered, leading to the changes in distribution of space charge and electrical field distribution. Also, due to the occupation effect of charges in the traps, molecular motion may be impeded , leading to an increase in energy gained by electrons and spur of local current. Such a coordination process results the electrical breakdown property of nanocomposites. Results of thesis well explained the reasons for electrical breakdown property enhancement, which is significant for further study on modulating electrical strength even other electrical properties of nanocomposites.
 
-![PPT里用的结论框图](https://i.loli.net/2020/05/06/N1zw7r5CO68IeAs.png)
-
-
+<img src="https://i.loli.net/2020/05/06/N1zw7r5CO68IeAs.png" alt="PPT里用的结论框图" style="zoom:80%;" />
 
 <center> Fig. Mechanism of electrical breakdown process of PP nanocomposite
-
-
 
 ## Project Experience ##
 
