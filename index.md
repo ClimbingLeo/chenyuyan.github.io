@@ -8,7 +8,7 @@ MS, Xi'an Jiaotong University, PRC
 
 I received BS degree with Electrical Engineering and Automation (GPA: 3.7, 1/91) from [Northwestern Polytechnical University(NPU)](http://zdhxy.nwpu.edu.cn/English/English/Home.htm) in People Republic of China(PRC) in June 2016 and the topic of thesis is "Design of large scale Lithium-ion battery stack management system based on ARM". I received MS degree with Electrical Engineering (GPA: 3.7, 2/51) from [Xi'an Jiaotong University(XJTU)](http://ee.xjtu.edu.cn/English_Version1/home.htm) in PRC in June 2019 and the topic of thesis is "Research on Electrical Breakdown Property of Polypropylene Nanocomposite Dielectric Modulated by Charge Transport and Molecular Displacement". 
 
-During master's study,  I was in Prof. [Shengtao Li](http://gr.xjtu.edu.cn/web/sli/23;jsessionid=3EE36B730115F7EC2AB0CDF2C0723015)'s group and my  research focused on high voltage electric transmission, electrical property of nanocomposite  and charge transport modeling calculation. In the past 3 years, I have a relatively good understanding of high voltage transmission, electrical material (especially nano material and device) fabrication, characterization and testing, charge transport modeling and numerical calculation. Under my prof. [Daomin Min](http://gr.xjtu.edu.cn/web/sli/22)'s guidance, I gradually formulated ability to deal with academic research and got a deeper insight towards the electrical engineering. During this period, I was involved in 3 projects and have 15 papers published.
+During master's study,  I was in Prof. [Shengtao Li](http://gr.xjtu.edu.cn/web/sli/23;jsessionid=3EE36B730115F7EC2AB0CDF2C0723015)'s group and my  research focused on high voltage electric transmission, electrical property of nanocomposite  and charge transport modeling calculation. In the past 3 years, I have a relatively good understanding of high voltage transmission, electrical material (especially nano material and device) fabrication, characterization and testing, charge transport modeling and numerical calculation. Under my prof. [Daomin Min](http://gr.xjtu.edu.cn/web/sli/22)'s guidance, I gradually formulated ability to deal with academic research and got a deeper insight towards the electrical engineering. During this period, I was involved in 3 projects and had 15 papers published.
 
 ## Publications 
 
@@ -29,8 +29,6 @@ During master's study,  I was in Prof. [Shengtao Li](http://gr.xjtu.edu.cn/web/s
 13. Kang WB, Meng SX, Cui HZ, Li YW, Mi R, <u>**Yan CY**</u>, Min DM, Li ST. Space charge accumulation in silicone rubber influenced by Poole-Frenkel effect[C]. International Conference on novel functional materials, 2018: 1-5 (EI: 20185306321507)
 14. Cui HZ, Xing ZL, Wu QZ, <u>**Yan CY**</u>, Mi R, Min DM, and Li ST. Accumulation of space charges in epoxy resin nanodielectrics influenced by Poole-Frenkel effect, International Conference on novel functional materials 2019 
 15. Kang WB, Meng SX, Cui HZ, <u>**Yan CY**</u>, Min DM, Li ST. Trap and dielectric property evolution of silicone rubber insulation under power frequency voltage superimposed harmonic [J]. High voltage (Chinese)    
-
-- **Min DM is my professor in MS phase**
 
 ## Scholarship and Awards 
 
@@ -126,7 +124,7 @@ This project was originated from the need for enhancing breakdown property of po
 
 - **Insulating property and its regularity of dielectrics in current transfer and energy dissipation (National Key Basic Research Program (973) sub-project)** 
 
-​                                                                             <img src="img/973.jpg" height="130" width="180;" div align = "center"/>     
+​                                                                                                            <img src="img/973.jpg" height="130" width="180;" div align = "center"/>     
 
 This project investigated the coupling impact of space charge accumulation, transient arc micro particle bombardment, metal particle deposition on the falshover property of fractrue insulating system in the process of dc arc switching, and revealed its influence regularity and failure mechanism. Based on nanocomposition modification tech, study figured out the the methods to suppress the space charge accumulation and metal particle deposition in the fracture insulating system and proposed approaches to resist flashover damage and aging. This research provided the theoretical and technology support for enhancing the voltage, current as well as lifespan of circuit breaker. I was mainly involved in the modeling of energy accumulation and flashover process, and investigated the influence of charge transport parameters and temperature on flashover behavior.
 
@@ -144,7 +142,7 @@ I worked in State Grid Corporation of China (SGCC), known as the largest corpora
 
 **Asea Brown Boveri Ltd., China         Electrical Engineer Internship                       2016.05-2016.09** 
 
-​                                                                           	<img src="img\ABB.png" height="120" width="200" div align = "center"/>
+​                                                                                                              	<img src="img\ABB.png" height="120" width="200" div align = "center" style="zoom:80%;" />
 
 I was a internship of technology department in ABB for four months. During this period, I have the initial understanding of industrialization of power system, especially the power capacitor. With an increase in familiarity with equipment, I have a more lucid concept for structure of power system and commercial market in this field. Plus, with the support of investigation in the equipment workshop, I learned the processing flow of capacitor, starting from the polypropylene film fabrication to the component assembly. In addition, I also got an opportunity to be engaged in the technical discussion with foreign experts, which largely bring inspiration to my further exploration on the research. Through intensive discussion, I found that increasing demand for high voltage transmission had been an urgent need for the grids in China, property of electric breakdown, however, was a key factor that determined the performance of power capacity. Therefore, when choosing the major field in my master phase, I forwardly approached to my professor and expressed my plan on the research of breakdown property of polypropylene. One more thing, it is worth being mentioned that I developed a program based on C++ during my internship to help collecting documents to meet the needs of engineers, which has been integrated to the system of ABB and used until now.
 
@@ -152,13 +150,13 @@ I was a internship of technology department in ABB for four months. During this 
 
 During the learning and research in past few years, I had a deeper insight into the academic research and the desire to explore the unknown. 
 
-1. Data processing and modeling
+1. Data processing and numerical calculation
 
    Mathematical model competition and previous research helps to form a good sense of mathematical thinking and modeling basis. I can adroitly use data processing software including Python, R, Origin, SPSS, MATLAB, etc., which provide a good basis for the accomplishment of paper. Productive data processing and practical models both can pave the way for a clearer demonstration and thus can convey significant messages to the audience. In addition, I'm also learning machine learning and data science on Coursera, which can bring positive contributions to my following study in Ph.D phase.
 
 1. Material fabrication and experiment
 
-   I'm familiar with the nanomaterial fabrication, characterization and testing process. Also, due to considerate understanding of theory of experiment method and equipment, corresponding analysis can be conducted appropriately. 
+   I'm familiar with the nanomaterial fabrication, characterization and testing process. Also, due to considerate understanding of theory of experiment method and equipment, corresponding analysis can be conducted appropriately and efficiently. 
 
 1. Experience in dealing with research plan & paper
 
