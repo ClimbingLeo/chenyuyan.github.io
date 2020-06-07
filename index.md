@@ -8,7 +8,7 @@ MS, Xi'an Jiaotong University, PRC
 
 I received BS degree with Electrical Engineering and Automation (GPA: 3.7, 1/91) from [Northwestern Polytechnical University(NPU)](http://zdhxy.nwpu.edu.cn/English/English/Home.htm) in People Republic of China(PRC) in June 2016 and the topic of thesis is "Design of large scale Lithium-ion battery stack management system based on ARM". I received MS degree with Electrical Engineering (GPA: 3.7, 2/51) from [Xi'an Jiaotong University(XJTU)](http://ee.xjtu.edu.cn/English_Version1/home.htm) in PRC in June 2019 and the topic of thesis is "Research on Electrical Breakdown Property of Polypropylene Nanocomposite Dielectric Modulated by Charge Transport and Molecular Displacement". 
 
-During master's study,  I was in Prof. [Shengtao Li](http://gr.xjtu.edu.cn/web/sli/23;jsessionid=3EE36B730115F7EC2AB0CDF2C0723015)'s group and my  research focused on high voltage electric transmission, electrical property of nanocomposite  and charge transport modeling calculation. In the past 3 years, I have a relatively good understanding of high voltage transmission, electrical material (especially nano material and device) fabrication, characterization and testing, data processing, as well as modeling calculation. Under my prof. [Daomin Min](http://gr.xjtu.edu.cn/web/sli/22)'s guidance, I gradually formulated ability to deal with academic research and got a deeper insight towards the electrical engineering. During this period, I was involved in 3 projects and have 15 papers published.
+During master's study,  I was in Prof. [Shengtao Li](http://gr.xjtu.edu.cn/web/sli/23;jsessionid=3EE36B730115F7EC2AB0CDF2C0723015)'s group and my  research focused on high voltage electric transmission, electrical property of nanocomposite  and charge transport modeling calculation. In the past 3 years, I have a relatively good understanding of high voltage transmission, electrical material (especially nano material and device) fabrication, characterization and testing, charge transport modeling and numerical calculation. Under my prof. [Daomin Min](http://gr.xjtu.edu.cn/web/sli/22)'s guidance, I gradually formulated ability to deal with academic research and got a deeper insight towards the electrical engineering. During this period, I was involved in 3 projects and have 15 papers published.
 
 ## Publications 
 
@@ -30,7 +30,7 @@ During master's study,  I was in Prof. [Shengtao Li](http://gr.xjtu.edu.cn/web/s
 14. Cui HZ, Xing ZL, Wu QZ, <u>**Yan CY**</u>, Mi R, Min DM, and Li ST. Accumulation of space charges in epoxy resin nanodielectrics influenced by Poole-Frenkel effect, International Conference on novel functional materials 2019 
 15. Kang WB, Meng SX, Cui HZ, <u>**Yan CY**</u>, Min DM, Li ST. Trap and dielectric property evolution of silicone rubber insulation under power frequency voltage superimposed harmonic [J]. High voltage (Chinese)    
 
-- **Min DM is my professor in the group**
+- **Min DM is my professor in MS phase**
 
 ## Scholarship and Awards 
 
@@ -61,14 +61,14 @@ During master's study,  I was in Prof. [Shengtao Li](http://gr.xjtu.edu.cn/web/s
 
 **Carrier Transport and Molecular Displacement Modulated (CTMD) model**
 
-This model considers the charge injection, migration, trapping/detrapping and recombination dynamic process.
+This model considers the charge injection, migration, trapping/detrapping and recombination dynamic process and depicts the continuous motion process of charges in the bulk of dielectrics.
 
 <img src="https://i.loli.net/2020/06/05/G1p9ghzKWNAemIj.png" alt="image-20200519225453984" style="zoom:80%;" />
 
 <center> Fig. Scheme of CTMD model and molecular chain displacement model
 
 
-Charges are continuously injected from electrodes to the bulk of samples and they may be captured by traps (both shallow traps and deep ones). When captured by deep traps, which means charges need to obtain higher energy to detrap, charge keep retention for a longer period. Also, during the migration from one electrode to another one, combination may occur when a positive charge encounters a negative one. Such a dynamic process includes entire charge motion  This model is used for calculating the charge transport property in the bulk of insulating material, including numerical calculation of space charge and electrical field distribution, energy gained by electrons as well as electrical strength. This model was once used for explaining the electrical breakdown behavior of polypropylene (PP, used for film of power capacitor) nanocomposite. By combining the experimental results and calculation of model, hidden electrical breakdown mechanism of PP nanocompositye was revealed. Details regarding the model can be seen in [Carrier Transport and Molecular Displacement Modulated dc Electrical Breakdown of Polypropylene Nanocomposites](#).
+Charges are continuously injected from electrodes to the bulk of samples and they may be captured by traps (both shallow traps and deep ones). When captured by deep traps, which means charges need to obtain higher energy to detrap, charge keep retention for a longer period. Also, during the migration from one electrode to another one, combination may occur when a positive charge encounters a negative one. Such a dynamic process includes entire charge motion process.  By setting boundaries of model and solving Poisson's equation, This model is used for calculating the charge transport property in the bulk of insulating material, including numerical calculation of space charge and electrical field distribution, energy gained by electrons as well as electrical strength. This model was once used for explaining the electrical breakdown behavior of polypropylene (PP, used for film of power capacitor) nanocomposite. By combining the experimental results and calculation of model, hidden electrical breakdown mechanism of PP nanocomposite was revealed. Details regarding the model can be seen in [Carrier Transport and Molecular Displacement Modulated dc Electrical Breakdown of Polypropylene Nanocomposites](#).
 
 Based on this model, we investigate the electrical breakdown property of PI samples with various thicknesses. It is found that similar mechanism modulates the breakdown behavior of PI and simulations results are better fit than the space charge electrical breakdown (SCEB) model. Relating results and comparison can be found in [Thickness-Dependent DC Electrical Breakdown of Polyimide Modulated by Charge Transport and Molecular Displacement.](#)
 
@@ -94,7 +94,7 @@ For your information, more papers can be found in:
 
 ## Thesis paper
 
-Topic of my thesis paper is  "Research on Electrical Breakdown Property of Polypropylene Nanocomposite Dielectric Modulated by Charge Transport and Molecular Displacement". By combining the experimental results and modeling calculation results, the thesis proposes an explanation for demonstrating the mechanism of electrical breakdown property of PP/Al2O3 nanocomposite.
+Title of my thesis paper is  "Research on Electrical Breakdown Property of Polypropylene Nanocomposite Dielectric Modulated by Charge Transport and Molecular Displacement". By combining the experimental results and modeling calculation results, the thesis proposes an explanation for demonstrating the mechanism of electrical breakdown property of PP/Al~2~O~3~ nanocomposite. 
 
 ### Overview on structure
 
@@ -108,11 +108,11 @@ Entire research of thesis includes sample fabrication, characterization and test
 
 It is worth mentioning that, based on the summary of current  synthetise method of nanocomposite, the thesis employed a new fabrication method to prepare samples, which turns out that fillers homogeneously  dispersed and both stability and dielectric property were enhanced compared with former results that employed original method.  
 
-The thesis correlate the characterization and testing results, namely morphology, thermal, crystallization property and polarization, trap distribution, electrical strength, conductivity property. After analyzing the correlations among different property of samples, it was concluded that trap distribution has a main effect on electrical breakdown property of PP/Al2O3 nanocomposite. 
+The thesis correlate the characterization and testing results, namely morphology, thermal, crystallization property and polarization, trap distribution, electrical strength, conductivity property. After analyzing the correlations among different property of samples, it was concluded that trap distribution has a main effect on electrical breakdown property of PP/Al~2~O~3~ nanocomposite. 
 
-By comparing previous analysis and simulation results with the CTMD model, mechanism of PP/Al2O3 nanocomposite has been revealed. It turns that nanofiller introduced interfacial regions to the neat material. Therefore, trap distribution in the bulk of material is altered, leading to the changes in distribution of space charge and electrical field distribution. Also, due to the occupation effect of charges in the traps, molecular motion may be impeded , leading to an increase in energy gained by electrons and spur of local current. Such a coordination process results the electrical breakdown property of nanocomposites. Results of thesis well explained the reasons for electrical breakdown property enhancement, which is significant for further study on modulating electrical strength even other electrical properties of nanocomposites.
+By comparing previous analysis and simulation results with the CTMD model, mechanism of PP/Al~2~O~3~ nanocomposite has been revealed. It turns that nanofiller introduced interfacial regions to the neat material. Therefore, trap distribution in the bulk of material is altered, leading to the changes in distribution of space charge and electrical field distribution. Also, due to the occupation effect of charges in the traps, molecular motion may be impeded , leading to an increase in energy gained by electrons and spur of local current. Such a coordination process results the electrical breakdown property of nanocomposites. Results of thesis well explained the reasons for electrical breakdown property enhancement, which is significant for further study on modulating electrical strength even other electrical properties of nanocomposites.
 
-<img src="https://i.loli.net/2020/05/06/N1zw7r5CO68IeAs.png" alt="PPT里用的结论框图" style="zoom:80%;" />
+<img src="https://i.loli.net/2020/05/06/N1zw7r5CO68IeAs.png" alt="PPT里用的结论框图" style="zoom:70%;" />
 
 <center> Fig. Mechanism of electrical breakdown process of PP nanocomposite
 
@@ -158,7 +158,7 @@ During the learning and research in past few years, I had a deeper insight into 
 
 1. Material fabrication and experiment
 
-   I'm familiar with the nano material fabrication, characterization and testing process. Also, due to considerate understanding of theory of experiment method and equipment, corresponding analysis can be conducted appropriately. 
+   I'm familiar with the nanomaterial fabrication, characterization and testing process. Also, due to considerate understanding of theory of experiment method and equipment, corresponding analysis can be conducted appropriately. 
 
 1. Experience in dealing with research plan & paper
 
