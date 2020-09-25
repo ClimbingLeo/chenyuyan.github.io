@@ -2,21 +2,22 @@
 <html>
 <head>
 <meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
-<title>index</title><link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; }
+<title>index-cs</title><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; }
 html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
-body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
+body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857143; overflow-x: hidden; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; tab-size: 4; background-position: inherit inherit; background-repeat: inherit inherit; }
 iframe { margin: auto; }
 a.url { word-break: break-all; }
 a:active, a:hover { outline: 0px; }
 .in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
-#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 40px; }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; word-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 40px; }
 #write.first-line-indent p { text-indent: 2em; }
 #write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
 #write.first-line-indent li { margin-left: 2em; }
 .for-image #write { padding-left: 8px; padding-right: 8px; }
 body.typora-export { padding-left: 30px; padding-right: 30px; }
 .typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
-@media screen and (max-width: 500px) {
+.typora-export .task-list-item input { pointer-events: none; }
+@media screen and (max-width: 500px) { 
   body.typora-export { padding-left: 0px; padding-right: 0px; }
   #write { padding-left: 20px; padding-right: 20px; }
   .CodeMirror-sizer { margin-left: 0px !important; }
@@ -24,8 +25,8 @@ body.typora-export { padding-left: 30px; padding-right: 30px; }
 }
 #write li > figure:last-child { margin-bottom: 0.5rem; }
 #write ol, #write ul { position: relative; }
-img { max-width: 100%; vertical-align: middle; }
-button, input, select, textarea { color: inherit; font: inherit; }
+img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
+button, input, select, textarea { color: inherit; font-family: inherit; font-size: inherit; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; }
 input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
 *, ::after, ::before { box-sizing: border-box; }
 #write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
@@ -43,17 +44,17 @@ h6 { font-size: 1rem; }
 .hidden { display: none; }
 .md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
 a { cursor: pointer; }
-sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; cursor: pointer; }
 sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
 #write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
 figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
-figure > table { margin: 0px !important; }
+figure > table { margin: 0px; }
 tr { break-inside: avoid; break-after: auto; }
 thead { display: table-header-group; }
 table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
 table.md-table td { min-width: 32px; }
-.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
-.CodeMirror-linenumber { user-select: none; }
+.CodeMirror-gutters { border-right-width: 0px; background-color: inherit; }
+.CodeMirror-linenumber { }
 .CodeMirror { text-align: left; }
 .CodeMirror-placeholder { opacity: 0.3; }
 .CodeMirror pre { padding: 0px 4px; }
@@ -63,7 +64,7 @@ div.hr:focus { cursor: none; }
 #write.fences-no-line-wrapping pre { white-space: pre; }
 #write pre.ty-contain-cm { white-space: normal; }
 .CodeMirror-gutters { margin-right: 4px; }
-.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; position: relative !important; background-position: inherit inherit; background-repeat: inherit inherit; }
 .md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
 #write .md-fences.mock-cm { white-space: pre-wrap; }
 .md-fences.md-fences-with-lineno { padding-left: 0px; }
@@ -72,7 +73,7 @@ div.hr:focus { cursor: none; }
 .CodeMirror-line, twitterwidget { break-inside: avoid; }
 .footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
 .footnotes + .footnotes { margin-top: 0px; }
-.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; background-position: 0px 0px; background-repeat: initial initial; }
 li div { padding-top: 0px; }
 blockquote { margin: 1rem 0px; }
 li .mathjax-block, li p { margin: 0.5rem 0px; }
@@ -81,17 +82,18 @@ blockquote > :last-child { margin-bottom: 0px; }
 blockquote > :first-child, li > :first-child { margin-top: 0px; }
 .footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
 #write .footnote-line { white-space: pre-wrap; }
-@media print {
+@media print { 
   body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
   #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
   .typora-export * { -webkit-print-color-adjust: exact; }
   html.blink-to-pdf { font-size: 13px; }
-  .typora-export #write { padding-left: 32px; padding-right: 32px; padding-bottom: 0px; break-after: avoid; }
+  .typora-export #write { break-after: avoid; }
   .typora-export #write::after { height: 0px; }
+  .is-mac table { break-inside: avoid; }
 }
 .footnote-line { margin-top: 0.714em; font-size: 0.7em; }
 a img, img a { cursor: pointer; }
-pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background-color: rgb(204, 204, 204); display: block; overflow-x: hidden; background-position: initial initial; background-repeat: initial initial; }
 p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
 #write.first-line-indent p > .md-image:only-child:not(.md-img-error) img { left: -2em; position: relative; }
 p > .md-image:only-child { display: inline-block; width: 100%; }
@@ -103,7 +105,7 @@ p > .md-image:only-child { display: inline-block; width: 100%; }
 .task-list-item.md-task-list-item { padding-left: 0px; }
 .md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
 .math { font-size: 1rem; }
-.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; }
 .md-toc-content { position: relative; margin-left: 0px; }
 .md-toc-content::after, .md-toc::after { display: none; }
 .md-toc-item { display: block; color: rgb(65, 131, 196); }
@@ -116,7 +118,7 @@ p > .md-image:only-child { display: inline-block; width: 100%; }
 .md-toc-h4 .md-toc-inner { margin-left: 6em; }
 .md-toc-h5 .md-toc-inner { margin-left: 8em; }
 .md-toc-h6 .md-toc-inner { margin-left: 10em; }
-@media screen and (max-width: 48em) {
+@media screen and (max-width: 48em) { 
   .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
   .md-toc-h4 .md-toc-inner { margin-left: 5em; }
   .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
@@ -127,56 +129,763 @@ a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; 
 .md-attr { display: none; }
 .md-fn-count::after { content: "."; }
 code, pre, samp, tt { font-family: var(--monospace); }
-kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background-color: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; background-position: initial initial; background-repeat: initial initial; }
 .md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
-code { text-align: left; vertical-align: initial; }
-a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+code { text-align: left; }
+a.md-print-anchor { white-space: pre !important; border: none !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; text-shadow: initial !important; background-position: 0px 0px !important; background-repeat: initial initial !important; }
 .md-inline-math .MathJax_SVG .noError { display: none !important; }
 .html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
 .md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
 .MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
 .MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
 .MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
-.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; overflow-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
-.MathJax_SVG * { transition: none 0s ease 0s; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG * { transition: none; }
 .MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; margin-top: 0px !important; }
 .os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
 .md-diagram-panel > svg { max-width: 100%; }
 [lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
 [lang="mermaid"] .node text { font-size: 1rem; }
-table tr th { border-bottom: 0px; }
+table tr th { border-bottom-width: 0px; }
 video { max-width: 100%; display: block; margin: 0px auto; }
 iframe { max-width: 100%; width: 100%; border: none; }
 .highlight td, .highlight tr { border: 0px; }
 svg[id^="mermaidChart"] { line-height: 1em; }
-mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
+mark { background-color: rgb(255, 255, 0); color: rgb(0, 0, 0); background-position: initial initial; background-repeat: initial initial; }
 .md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
 mark .md-meta { color: rgb(0, 0, 0); opacity: 0.3 !important; }
-
-
-:root {
-    --side-bar-bg-color: #fafafa;
-    --control-text-color: #777;
+@media print { 
+  .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
 }
 
-@include-when-export url(https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
+
+/* Flowchart variables */
+/* Sequence Diagram variables */
+/* Gantt chart variables */
+/* state colors */
+.label {
+  
+  color: #333; }
+
+.label text {
+  fill: #333; }
+
+.node rect,
+.node circle,
+.node ellipse,
+.node polygon {
+  fill: #BDD5EA;
+  stroke: #9370DB;
+  stroke-width: 1px; }
+
+.node .label {
+  text-align: center; }
+
+.node.clickable {
+  cursor: pointer; }
+
+.arrowheadPath {
+  fill: lightgrey; }
+
+.edgePath .path {
+  stroke: lightgrey;
+  stroke-width: 1.5px; }
+
+.edgeLabel {
+  background-color: #e8e8e8;
+  text-align: center; }
+
+.cluster rect {
+  fill: #6D6D65;
+  stroke: rgba(255, 255, 255, 0.25);
+  stroke-width: 1px; }
+
+.cluster text {
+  fill: #F9FFFE; }
+
+div.mermaidTooltip {
+  position: absolute;
+  text-align: center;
+  max-width: 200px;
+  padding: 2px;
+  
+  font-size: 12px;
+  background: #6D6D65;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 2px;
+  pointer-events: none;
+  z-index: 100; }
+
+.actor {
+  stroke: #81B1DB;
+  fill: #BDD5EA; }
+
+text.actor {
+  fill: black;
+  stroke: none; }
+
+.actor-line {
+  stroke: lightgrey; }
+
+.messageLine0 {
+  stroke-width: 1.5;
+  stroke-dasharray: '2 2';
+  stroke: lightgrey; }
+
+.messageLine1 {
+  stroke-width: 1.5;
+  stroke-dasharray: '2 2';
+  stroke: lightgrey; }
+
+#arrowhead {
+  fill: lightgrey; }
+
+.sequenceNumber {
+  fill: white; }
+
+#sequencenumber {
+  fill: lightgrey; }
+
+#crosshead path {
+  fill: lightgrey !important;
+  stroke: lightgrey !important; }
+
+.messageText {
+  fill: lightgrey;
+  stroke: none; }
+
+.labelBox {
+  stroke: #81B1DB;
+  fill: #BDD5EA; }
+
+.labelText {
+  fill: #323D47;
+  stroke: none; }
+
+.loopText {
+  fill: lightgrey;
+  stroke: none; }
+
+.loopLine {
+  stroke-width: 2;
+  stroke-dasharray: '2 2';
+  stroke: #81B1DB; }
+
+.note {
+  stroke: rgba(255, 255, 255, 0.25);
+  fill: #fff5ad; }
+
+.noteText {
+  fill: black;
+  stroke: none;
+  
+  font-size: 14px; }
+
+.activation0 {
+  fill: #f4f4f4;
+  stroke: #666; }
+
+.activation1 {
+  fill: #f4f4f4;
+  stroke: #666; }
+
+.activation2 {
+  fill: #f4f4f4;
+  stroke: #666; }
+
+/** Section styling */
+.section {
+  stroke: none;
+  opacity: 0.2; }
+
+.section0 {
+  fill: rgba(255, 255, 255, 0.3); }
+
+.section2 {
+  fill: #EAE8B9; }
+
+.section1,
+.section3 {
+  fill: white;
+  opacity: 0.2; }
+
+.sectionTitle0 {
+  fill: #F9FFFE; }
+
+.sectionTitle1 {
+  fill: #F9FFFE; }
+
+.sectionTitle2 {
+  fill: #F9FFFE; }
+
+.sectionTitle3 {
+  fill: #F9FFFE; }
+
+.sectionTitle {
+  text-anchor: start;
+  font-size: 11px;
+  text-height: 14px;
+   }
+
+/* Grid and axis */
+.grid .tick {
+  stroke: lightgrey;
+  opacity: 0.3;
+  shape-rendering: crispEdges; }
+
+.grid path {
+  stroke-width: 0; }
+
+/* Today line */
+.today {
+  fill: none;
+  stroke: #DB5757;
+  stroke-width: 2px; }
+
+/* Task styling */
+/* Default task */
+.task {
+  stroke-width: 2; }
+
+.taskText {
+  text-anchor: middle;
+   }
+
+.taskText:not([font-size]) {
+  font-size: 11px; }
+
+.taskTextOutsideRight {
+  fill: #323D47;
+  text-anchor: start;
+  font-size: 11px;
+   }
+
+.taskTextOutsideLeft {
+  fill: #323D47;
+  text-anchor: end;
+  font-size: 11px; }
+
+/* Special case clickable */
+.task.clickable {
+  cursor: pointer; }
+
+.taskText.clickable {
+  cursor: pointer;
+  fill: #003163 !important;
+  font-weight: bold; }
+
+.taskTextOutsideLeft.clickable {
+  cursor: pointer;
+  fill: #003163 !important;
+  font-weight: bold; }
+
+.taskTextOutsideRight.clickable {
+  cursor: pointer;
+  fill: #003163 !important;
+  font-weight: bold; }
+
+/* Specific task settings for the sections*/
+.taskText0,
+.taskText1,
+.taskText2,
+.taskText3 {
+  fill: #323D47; }
+
+.task0,
+.task1,
+.task2,
+.task3 {
+  fill: #BDD5EA;
+  stroke: rgba(255, 255, 255, 0.5); }
+
+.taskTextOutside0,
+.taskTextOutside2 {
+  fill: lightgrey; }
+
+.taskTextOutside1,
+.taskTextOutside3 {
+  fill: lightgrey; }
+
+/* Active task */
+.active0,
+.active1,
+.active2,
+.active3 {
+  fill: #81B1DB;
+  stroke: rgba(255, 255, 255, 0.5); }
+
+.activeText0,
+.activeText1,
+.activeText2,
+.activeText3 {
+  fill: #323D47 !important; }
+
+/* Completed task */
+.done0,
+.done1,
+.done2,
+.done3 {
+  stroke: grey;
+  fill: lightgrey;
+  stroke-width: 2; }
+
+.doneText0,
+.doneText1,
+.doneText2,
+.doneText3 {
+  fill: #323D47 !important; }
+
+/* Tasks on the critical line */
+.crit0,
+.crit1,
+.crit2,
+.crit3 {
+  stroke: #E83737;
+  fill: #E83737;
+  stroke-width: 2; }
+
+.activeCrit0,
+.activeCrit1,
+.activeCrit2,
+.activeCrit3 {
+  stroke: #E83737;
+  fill: #81B1DB;
+  stroke-width: 2; }
+
+.doneCrit0,
+.doneCrit1,
+.doneCrit2,
+.doneCrit3 {
+  stroke: #E83737;
+  fill: lightgrey;
+  stroke-width: 2;
+  cursor: pointer;
+  shape-rendering: crispEdges; }
+
+.milestone {
+  transform: rotate(45deg) scale(0.8, 0.8); }
+
+.milestoneText {
+  font-style: italic; }
+
+.doneCritText0,
+.doneCritText1,
+.doneCritText2,
+.doneCritText3 {
+  fill: #323D47 !important; }
+
+.activeCritText0,
+.activeCritText1,
+.activeCritText2,
+.activeCritText3 {
+  fill: #323D47 !important; }
+
+.titleText {
+  text-anchor: middle;
+  font-size: 18px;
+  fill: #323D47;
+   }
+
+g.classGroup text {
+  fill: #9370DB;
+  stroke: none;
+  
+  font-size: 10px; }
+  g.classGroup text .title {
+    font-weight: bolder; }
+
+g.classGroup rect {
+  fill: #BDD5EA;
+  stroke: #9370DB; }
+
+g.classGroup line {
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+.classLabel .box {
+  stroke: none;
+  stroke-width: 0;
+  fill: #BDD5EA;
+  opacity: 0.5; }
+
+.classLabel .label {
+  fill: #9370DB;
+  font-size: 10px; }
+
+.relation {
+  stroke: #9370DB;
+  stroke-width: 1;
+  fill: none; }
+
+#compositionStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#compositionEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#aggregationStart {
+  fill: #BDD5EA;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#aggregationEnd {
+  fill: #BDD5EA;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#dependencyStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#dependencyEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#extensionStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#extensionEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+.commit-id,
+.commit-msg,
+.branch-label {
+  fill: lightgrey;
+  color: lightgrey;
+   }
+
+.pieTitleText {
+  text-anchor: middle;
+  font-size: 25px;
+  fill: #eee;
+}
+
+g.stateGroup text {
+  stroke: none;
+  font-size: 10px;
+}
+
+g.stateGroup circle {
+  fill: white !important;
+  stroke: white !important;
+}
+
+g.stateGroup .state-title {
+  font-weight: bolder;
+  fill: black; }
+
+g.stateGroup rect {
+  fill: #ececff;
+  stroke: #9370DB; }
+
+g.stateGroup line {
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+.transition {
+  stroke: #9370DB;
+  stroke-width: 1;
+  fill: none; }
+
+.stateGroup .composit {
+  fill: #555;
+  border-bottom: 1px; }
+
+.state-note {
+  stroke: rgba(255, 255, 255, 0.25);
+  fill: #fff5ad; }
+  .state-note text {
+    fill: black;
+    stroke: none;
+    font-size: 10px; }
+
+.stateLabel .box {
+  stroke: none;
+  stroke-width: 0;
+  fill: #BDD5EA;
+  opacity: 0.5; }
+
+.stateLabel text {
+  fill: black;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.cluster-label {
+  color:black;
+}
+
+.statediagram-cluster rect {
+  fill: #BDD5EA;
+  stroke: #9370DB; 
+  stroke-width: 1px;
+}
+.statediagram-cluster rect.outer {
+  rx: 5px;
+  ry: 5px;
+}
+.statediagram-state .divider {
+  stroke: #9370DB; 
+}
+
+.statediagram-state .title-state {
+  rx: 5px;
+  ry: 5px;
+}
+.statediagram-cluster.statediagram-cluster .inner {
+  fill: white;
+}
+.statediagram-cluster.statediagram-cluster-alt .inner {
+  fill: #e0e0e0;
+}
+
+.statediagram-cluster .inner {
+  rx:0;
+  ry:0;
+}
+
+.statediagram-state rect.basic {
+  rx: 5px;
+  ry: 5px;
+}
+.statediagram-state rect.divider {
+  stroke-dasharray: 10,10;
+  fill: #efefef;
+}
+
+.note-edge {
+  stroke-dasharray: 5;
+}
+
+.statediagram-note rect {
+  stroke: var(--cluster-border);
+  fill: #fff5ad;
+  stroke-width: 1px;
+  rx: 0;
+  ry: 0;
+}
+
+.node circle.state-start {
+  fill: black;
+  stroke: black;
+}
+.node circle.state-end {
+  fill: black;
+  stroke: white;
+  stroke-width: 1.5
+}
+#statediagram-barbEnd {
+  fill: #9370DB; 
+}
+
+/* CSS Document */
+
+/** code highlight */
+
+.cm-s-inner .cm-variable,
+.cm-s-inner .cm-operator,
+.cm-s-inner .cm-property {
+    color: #b8bfc6;
+}
+
+.cm-s-inner .cm-keyword {
+    color: #C88FD0;
+}
+
+.cm-s-inner .cm-tag {
+    color: #7DF46A;
+}
+
+.cm-s-inner .cm-attribute {
+    color: #7575E4;
+}
+
+.CodeMirror div.CodeMirror-cursor {
+    border-left: 1px solid #b8bfc6;
+    z-index: 3;
+}
+
+.cm-s-inner .cm-string {
+    color: #D26B6B;
+}
+
+.cm-s-inner .cm-comment,
+.cm-s-inner.cm-comment {
+    color: #DA924A;
+}
+
+.cm-s-inner .cm-header,
+.cm-s-inner .cm-def,
+.cm-s-inner.cm-header,
+.cm-s-inner.cm-def {
+    color: #8d8df0;
+}
+
+.cm-s-inner .cm-quote,
+.cm-s-inner.cm-quote {
+    color: #57ac57;
+}
+
+.cm-s-inner .cm-hr {
+    color: #d8d5d5;
+}
+
+.cm-s-inner .cm-link {
+    color: #d3d3ef;
+}
+
+.cm-s-inner .cm-negative {
+    color: #d95050;
+}
+
+.cm-s-inner .cm-positive {
+    color: #50e650;
+}
+
+.cm-s-inner .cm-string-2 {
+    color: #f50;
+}
+
+.cm-s-inner .cm-meta,
+.cm-s-inner .cm-qualifier {
+    color: #b7b3b3;
+}
+
+.cm-s-inner .cm-builtin {
+    color: #f3b3f8;
+}
+
+.cm-s-inner .cm-bracket {
+    color: #997;
+}
+
+.cm-s-inner .cm-atom,
+.cm-s-inner.cm-atom {
+    color: #84B6CB;
+}
+
+.cm-s-inner .cm-number {
+    color: #64AB8F;
+}
+
+.cm-s-inner .cm-variable {
+    color: #b8bfc6;
+}
+
+.cm-s-inner .cm-variable-2 {
+    color: #9FBAD5;
+}
+
+.cm-s-inner .cm-variable-3 {
+    color: #1cc685;
+}
+
+.CodeMirror-selectedtext,
+.CodeMirror-selected {
+    background: #4a89dc;
+    color: #fff !important;
+    text-shadow: none;
+}
+
+.CodeMirror-gutters {
+    border-right: none;
+}
+
+/* CSS Document */
+
+/** markdown source **/
+.cm-s-typora-default .cm-header, 
+.cm-s-typora-default .cm-property
+{
+    color: #cebcca;
+}
+
+.CodeMirror.cm-s-typora-default div.CodeMirror-cursor{
+    border-left: 3px solid #b8bfc6;
+}
+
+.cm-s-typora-default .cm-comment {
+    color: #9FB1FF;
+}
+
+.cm-s-typora-default .cm-string {
+    color: #A7A7D9
+}
+
+.cm-s-typora-default .cm-atom, .cm-s-typora-default .cm-number {
+    color: #848695;
+    font-style: italic;
+}
+
+.cm-s-typora-default .cm-link {
+    color: #95B94B;
+}
+
+.cm-s-typora-default .CodeMirror-activeline-background {
+    background: rgba(51, 51, 51, 0.72);
+}
+
+.cm-s-typora-default .cm-comment, .cm-s-typora-default .cm-code {
+	color: #8aa1e1;
+}@import "";
+@import "";
+@import "";
+
+:root {
+    --bg-color:  #363B40;
+    --side-bar-bg-color: #2E3033;
+    --text-color: #b8bfc6;
+
+    --select-text-bg-color:#4a89dc;
+
+    --item-hover-bg-color: #0a0d16;
+    --control-text-color: #b7b7b7;
+    --control-text-hover-color: #eee;
+    --window-border: 1px solid #555;
+
+    --active-file-bg-color: rgb(34, 34, 34);
+    --active-file-border-color: #8d8df0;
+
+    --primary-color: #a3d5fe;
+
+    --active-file-text-color: white;
+    --item-hover-bg-color: #70717d;
+    --item-hover-text-color: white;
+    --primary-color: #6dc1e7;
+
+    --rawblock-edit-panel-bd: #333;
+
+    --search-select-bg-color: #428bca;
+}
 
 html {
     font-size: 16px;
 }
 
+html,
 body {
-    font-family: "Open Sans","Clear Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: rgb(51, 51, 51);
-    line-height: 1.6;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    background: #363B40;
+    background: var(--bg-color);
+    fill: currentColor;
+    line-height: 1.625rem;
 }
 
 #write {
-    max-width: 860px;
-  	margin: 0 auto;
-  	padding: 30px;
-    padding-bottom: 100px;
+    max-width: 914px;
 }
+
 
 @media only screen and (min-width: 1400px) {
 	#write {
@@ -190,334 +899,954 @@ body {
 	}
 }
 
-#write > ul:first-child,
-#write > ol:first-child{
-    margin-top: 30px;
+html,
+body,
+button,
+input,
+select,
+textarea,
+div.code-tooltip-content {
+    color: #b8bfc6;
+    border-color: transparent;
 }
 
-a {
-    color: #4183C4;
+div.code-tooltip,
+.md-hover-tip .md-arrow:after {
+    background: #333;
 }
+
+.popover.bottom > .arrow:after {
+    border-bottom-color: #333;
+}
+
+html,
+body,
+button,
+input,
+select,
+textarea {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+hr {
+    height: 2px;
+    border: 0;
+    margin: 24px 0 !important;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-    position: relative;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    font-weight: bold;
-    line-height: 1.4;
-    cursor: text;
-}
-h1:hover a.anchor,
-h2:hover a.anchor,
-h3:hover a.anchor,
-h4:hover a.anchor,
-h5:hover a.anchor,
-h6:hover a.anchor {
-    text-decoration: none;
-}
-h1 tt,
-h1 code {
-    font-size: inherit;
-}
-h2 tt,
-h2 code {
-    font-size: inherit;
-}
-h3 tt,
-h3 code {
-    font-size: inherit;
-}
-h4 tt,
-h4 code {
-    font-size: inherit;
-}
-h5 tt,
-h5 code {
-    font-size: inherit;
-}
-h6 tt,
-h6 code {
-    font-size: inherit;
-}
-h1 {
-    padding-bottom: .3em;
-    font-size: 2.25em;
-    line-height: 1.2;
-    border-bottom: 1px solid #eee;
-}
-h2 {
-   padding-bottom: .3em;
-    font-size: 1.75em;
-    line-height: 1.225;
-    border-bottom: 1px solid #eee;
-}
-h3 {
-    font-size: 1.5em;
-    line-height: 1.43;
-}
-h4 {
-    font-size: 1.25em;
-}
-h5 {
-    font-size: 1em;
-}
-h6 {
-   font-size: 1em;
-    color: #777;
-}
-p,
-blockquote,
-ul,
-ol,
-dl,
-table{
-    margin: 0.8em 0;
-}
-li>ol,
-li>ul {
-    margin: 0 0;
-}
-hr {
-    height: 2px;
+    font-family: "Lucida Grande", "Corbel", sans-serif;
+    font-weight: normal;
+    clear: both;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+    margin: 0;
     padding: 0;
-    margin: 16px 0;
-    background-color: #e7e7e7;
-    border: 0 none;
-    overflow: hidden;
-    box-sizing: content-box;
+    color: #DEDEDE
 }
 
-li p.first {
-    display: inline-block;
+h1 {
+    font-size: 2.5rem;
+    /* 36px */
+    line-height: 2.75rem;
+    /* 40px */
+    margin-bottom: 1.5rem;
+    /* 24px */
+    letter-spacing: -1.5px;
 }
+
+h2 {
+    font-size: 1.63rem;
+    /* 24px */
+    line-height: 1.875rem;
+    /* 30px */
+    margin-bottom: 1.5rem;
+    /* 24px */
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.17rem;
+    /* 18px */
+    line-height: 1.5rem;
+    /* 24px */
+    margin-bottom: 1.5rem;
+    /* 24px */
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 1.12rem;
+    /* 16px */
+    line-height: 1.375rem;
+    /* 22px */
+    margin-bottom: 1.5rem;
+    /* 24px */
+    color: white;
+}
+
+h5 {
+    font-size: 0.97rem;
+    /* 16px */
+    line-height: 1.25rem;
+    /* 22px */
+    margin-bottom: 1.5rem;
+    /* 24px */
+    font-weight: bold;
+}
+
+h6 {
+    font-size: 0.93rem;
+    /* 16px */
+    line-height: 1rem;
+    /* 16px */
+    margin-bottom: 0.75rem;
+    color: white;
+}
+
+@media (min-width: 980px) {
+    h3.md-focus:before,
+    h4.md-focus:before,
+    h5.md-focus:before,
+    h6.md-focus:before {
+        color: #ddd;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        position: absolute;
+        left: -1.642857143rem;
+        top: .357142857rem;
+        float: left;
+        font-size: 9px;
+        padding-left: 2px;
+        padding-right: 2px;
+        vertical-align: bottom;
+        font-weight: normal;
+        line-height: normal;
+    }
+
+    h3.md-focus:before {
+        content: 'h3';
+    }
+
+    h4.md-focus:before {
+        content: 'h4';
+    }
+
+    h5.md-focus:before {
+        content: 'h5';
+        top: 0px;
+    }
+
+    h6.md-focus:before {
+        content: 'h6';
+        top: 0px;
+    }
+}
+
+a {
+    text-decoration: none;
+    outline: 0;
+}
+
+a:hover {
+    outline: 0;
+}
+
+a:focus {
+    outline: thin dotted;
+}
+
+sup.md-footnote {
+    background-color: #555;
+    color: #ddd;
+}
+
+p {
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+
+p,
+ul,
+dd,
+ol,
+hr,
+address,
+pre,
+table,
+iframe,
+.wp-caption,
+.wp-audio-shortcode,
+.wp-video-shortcode {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    /* 24px */
+}
+
+li > blockquote {
+	margin-bottom: 0;
+}
+
+audio:not([controls]) {
+    display: none;
+}
+
+[hidden] {
+    display: none;
+}
+
+::-moz-selection {
+    background: #4a89dc;
+    color: #fff;
+    text-shadow: none;
+}
+
+*.in-text-selection,
+::selection {
+    background: #4a89dc;
+    color: #fff;
+    text-shadow: none;
+}
+
 ul,
 ol {
-    padding-left: 30px;
+    padding: 0 0 0 1.875rem;
+    /* 30px */
 }
-ul:first-child,
-ol:first-child {
-    margin-top: 0;
+
+ul {
+    list-style: square;
 }
-ul:last-child,
-ol:last-child {
-    margin-bottom: 0;
+
+ol {
+    list-style: decimal;
 }
-blockquote {
-    border-left: 4px solid #dfe2e5;
-    padding: 0 15px;
-    color: #777777;
-}
-blockquote blockquote {
-    padding-right: 0;
-}
-table {
-    padding: 0;
-    word-break: initial;
-}
-table tr {
-    border-top: 1px solid #dfe2e5;
+
+ul ul,
+ol ol,
+ul ol,
+ol ul {
     margin: 0;
-    padding: 0;
 }
-table tr:nth-child(2n),
-thead {
-    background-color: #f8f8f8;
-}
-table tr th {
+
+b,
+th,
+dt,
+strong {
     font-weight: bold;
-    border: 1px solid #dfe2e5;
-    border-bottom: 0;
-    margin: 0;
-    padding: 6px 13px;
-}
-table tr td {
-    border: 1px solid #dfe2e5;
-    margin: 0;
-    padding: 6px 13px;
-}
-table tr th:first-child,
-table tr td:first-child {
-    margin-top: 0;
-}
-table tr th:last-child,
-table tr td:last-child {
-    margin-bottom: 0;
 }
 
-.CodeMirror-lines {
-    padding-left: 4px;
+i,
+em,
+dfn,
+cite {
+    font-style: italic;
 }
 
-.code-tooltip {
-    box-shadow: 0 1px 1px 0 rgba(0,28,36,.3);
-    border-top: 1px solid #eef2f2;
+blockquote {
+    padding-left: 1.875rem;
+    margin: 0 0 1.875rem 1.875rem;
+    border-left: solid 2px #474d54;
+    padding-left: 30px;
+    margin-top: 35px;
 }
 
-.md-fences,
+pre,
 code,
-tt {
-    border: 1px solid #e7eaed;
-    background-color: #f8f8f8;
+kbd,
+tt,
+var {
+    font-size: 0.875rem;
+    font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+}
+
+code,
+tt,
+var {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+kbd {
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #fff;
+    background-color: #333;
     border-radius: 3px;
-    padding: 0;
-    padding: 2px 4px 0px 4px;
-    font-size: 0.9em;
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.25);
 }
 
-code {
-    background-color: #f3f4f4;
-    padding: 0 2px 0 2px;
+pre.md-fences {
+    padding: 10px 10px 10px 30px;
+    margin-bottom: 20px;
+    background: #333;
 }
 
-.md-fences {
-    margin-bottom: 15px;
-    margin-top: 15px;
-    padding-top: 8px;
-    padding-bottom: 6px;
+.CodeMirror-gutters {
+    background: #333;
+    border-right: 1px solid transparent;
 }
 
+.enable-diagrams pre.md-fences[lang="sequence"] .code-tooltip,
+.enable-diagrams pre.md-fences[lang="flow"] .code-tooltip,
+.enable-diagrams pre.md-fences[lang="mermaid"] .code-tooltip {
+    bottom: -2.2em;
+    right: 4px;
+}
+
+code,
+kbd,
+tt,
+var {
+    padding: 2px 5px;
+}
+
+table {
+    max-width: 100%;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th,
+td {
+    padding: 5px 10px;
+    vertical-align: top;
+}
+
+a {
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+hr {
+    background: #474d54;
+    /* variable */
+}
+
+h1 {
+    margin-top: 2em;
+}
+
+a {
+    color: #e0e0e0;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #fff;
+}
+
+.md-inline-math script {
+    color: #81b1db;
+}
+
+b,
+th,
+dt,
+strong {
+    color: #DEDEDE;
+    /* variable */
+}
+
+mark {
+    background: #D3D40E;
+}
+
+blockquote {
+    color: #9DA2A6;
+}
+
+table a {
+    color: #DEDEDE;
+    /* variable */
+}
+
+th,
+td {
+    border: solid 1px #474d54;
+    /* variable */
+}
+
+.task-list {
+    padding-left: 0;
+}
+
+.md-task-list-item {
+    padding-left: 1.25rem;
+}
 
 .md-task-list-item > input {
-  margin-left: -1.3em;
+    top: auto;
 }
 
-@media print {
-    html {
-        font-size: 13px;
-    }
-    table,
-    pre {
-        page-break-inside: avoid;
-    }
-    pre {
-        word-wrap: break-word;
-    }
+.md-task-list-item > input:before {
+    content: "";
+    display: inline-block;
+    width: 0.875rem;
+    height: 0.875rem;
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid #b8bfc6;
+    background-color: #363B40;
+    margin-top: -0.4rem;
 }
 
-.md-fences {
-	background-color: #f8f8f8;
-}
-#write pre.md-meta-block {
-	padding: 1rem;
-    font-size: 85%;
-    line-height: 1.45;
-    background-color: #f7f7f7;
-    border: 0;
-    border-radius: 3px;
-    color: #777777;
-    margin-top: 0 !important;
+.md-task-list-item > input:checked:before,
+.md-task-list-item > input[checked]:before {
+    content: '\221A';
+    /*◘*/
+    font-size: 0.625rem;
+    line-height: 0.625rem;
+    color: #DEDEDE;
 }
 
-.mathjax-block>.code-tooltip {
-	bottom: .375rem;
-}
-
-.md-mathjax-midline {
-    background: #fafafa;
-}
-
-#write>h3.md-focus:before{
-	left: -1.5625rem;
-	top: .375rem;
-}
-#write>h4.md-focus:before{
-	left: -1.5625rem;
-	top: .285714286rem;
-}
-#write>h5.md-focus:before{
-	left: -1.5625rem;
-	top: .285714286rem;
-}
-#write>h6.md-focus:before{
-	left: -1.5625rem;
-	top: .285714286rem;
-}
-.md-image>.md-meta {
-    /*border: 1px solid #ddd;*/
-    border-radius: 3px;
-    padding: 2px 0px 0px 4px;
-    font-size: 0.9em;
-    color: inherit;
-}
-
-.md-tag {
-    color: #a7a7a7;
-    opacity: 1;
-}
-
-.md-toc { 
-    margin-top:20px;
-    padding-bottom:20px;
-}
-
-.sidebar-tabs {
-    border-bottom: none;
+/** quick open **/
+.auto-suggest-container {
+    border: 0px;
+    background-color: #525C65;
 }
 
 #typora-quick-open {
-    border: 1px solid #ddd;
-    background-color: #f8f8f8;
+    background-color: #525C65;
 }
 
-#typora-quick-open-item {
-    background-color: #FAFAFA;
-    border-color: #FEFEFE #e5e5e5 #e5e5e5 #eee;
-    border-style: solid;
-    border-width: 1px;
+#typora-quick-open input{
+    background-color: #525C65;
+    border: 0;
+    border-bottom: 1px solid grey;
 }
 
-/** focus mode */
-.on-focus-mode blockquote {
-    border-left-color: rgba(85, 85, 85, 0.12);
+.typora-quick-open-item {
+    background-color: inherit;
+    color: inherit;
 }
 
-header, .context-menu, .megamenu-content, footer{
-    font-family: "Segoe UI", "Arial", sans-serif;
+.typora-quick-open-item.active,
+.typora-quick-open-item:hover {
+    background-color: #4D8BDB;
+    color: white;
 }
 
-.file-node-content:hover .file-node-icon,
-.file-node-content:hover .file-node-open-state{
-    visibility: visible;
+.typora-quick-open-item:hover {
+    background-color: rgba(77, 139, 219, 0.8);
 }
 
-.mac-seamless-mode #typora-sidebar {
-    background-color: #fafafa;
-    background-color: var(--side-bar-bg-color);
+.typora-search-spinner > div {
+  background-color: #fff;
 }
 
-.md-lang {
-    color: #b4654d;
+#write pre.md-meta-block {
+    border-bottom: 1px dashed #ccc;
+    background: transparent;
+    padding-bottom: 0.6em;
+    line-height: 1.6em;
 }
 
-.html-for-mac .context-menu {
-    --item-hover-bg-color: #E6F0FE;
+.btn,
+.btn .btn-default {
+    background: transparent;
+    color: #b8bfc6;
 }
 
-#md-notification .btn {
+.ty-table-edit {
+    border-top: 1px solid gray;
+    background-color: #363B40;
+}
+
+.popover-title {
+    background: transparent;
+}
+
+.md-image>.md-meta {
+    color: #BBBBBB;
+    background: transparent;
+}
+
+.md-expand.md-image>.md-meta {
+    color: #DDD;
+}
+
+#write>h3:before,
+#write>h4:before,
+#write>h5:before,
+#write>h6:before {
+    border: none;
+    border-radius: 0px;
+    color: #888;
+    text-decoration: underline;
+    left: -1.4rem;
+    top: 0.2rem;
+}
+
+#write>h3.md-focus:before {
+    top: 2px;
+}
+
+#write>h4.md-focus:before {
+    top: 2px;
+}
+
+.md-toc-item {
+    color: #A8C2DC;
+}
+
+#write div.md-toc-tooltip {
+    background-color: #363B40;
+}
+
+.dropdown-menu .btn:hover,
+.dropdown-menu .btn:focus,
+.md-toc .btn:hover,
+.md-toc .btn:focus {
+    color: white;
+    background: black;
+}
+
+#toc-dropmenu {
+    background: rgba(50, 54, 59, 0.93);
+    border: 1px solid rgba(253, 253, 253, 0.15);
+}
+
+#toc-dropmenu .divider {
+    background-color: #9b9b9b;
+}
+
+.outline-expander:before {
+    top: 2px;
+}
+
+#typora-sidebar {
+    box-shadow: none;
+    border-right: 1px dashed;
+    border-right: none;
+}
+
+.sidebar-tabs {
+    border-bottom:0;
+}
+
+#typora-sidebar:hover .outline-title-wrapper {
+    border-left: 1px dashed;
+}
+
+.outline-title-wrapper .btn {
+    color: inherit;
+}
+
+.outline-item:hover {
+    border-color: #363B40;
+    background-color: #363B40;
+    color: white;
+}
+
+h1.md-focus .md-attr,
+h2.md-focus .md-attr,
+h3.md-focus .md-attr,
+h4.md-focus .md-attr,
+h5.md-focus .md-attr,
+h6.md-focus .md-attr,
+.md-header-span .md-attr {
+    color: #8C8E92;
+    display: inline;
+}
+
+.md-comment {
+    color: #5a95e3;
+    opacity: 1;
+}
+
+.md-inline-math svg {
+    color: #b8bfc6;
+}
+
+#math-inline-preview .md-arrow:after {
+    background: black;
+}
+
+.modal-content {
+    background: var(--bg-color);
     border: 0;
 }
 
-.dropdown-menu .divider {
-    border-color: #e5e5e5;
+.modal-title {
+    font-size: 1.5em;
 }
 
-.ty-preferences .window-content {
-    background-color: #fafafa;
+.modal-content input {
+    background-color: rgba(26, 21, 21, 0.51);
+    color: white;
+}
+
+.modal-content .input-group-addon {
+    color: white;
+}
+
+.modal-backdrop {
+    background-color: rgba(174, 174, 174, 0.7);
+}
+
+.modal-content .btn-primary {
+    border-color: var(--primary-color);
+}
+
+.md-table-resize-popover {
+    background-color: #333;
+}
+
+.form-inline .input-group .input-group-addon {
+    color: white;
+}
+
+#md-searchpanel {
+    border-bottom: 1px dashed grey;
+}
+
+/** UI for electron */
+
+.context-menu,
+#spell-check-panel,
+#footer-word-count-info {
+    background-color: #42464A;
+}
+
+.context-menu.dropdown-menu .divider,
+.dropdown-menu .divider {
+    background-color: #777777;
+}
+
+footer {
+    color: inherit;
+}
+
+@media (max-width: 1000px) {
+    footer {
+        border-top: none;
+    }
+    footer:hover {
+        color: inherit;
+    }
+}
+
+#file-info-file-path .file-info-field-value:hover {
+    background-color: #555;
+    color: #dedede;
+}
+
+.megamenu-content,
+.megamenu-opened header {
+    background: var(--bg-color);
+}
+
+.megamenu-menu-panel h2,
+.megamenu-menu-panel h1,
+.long-btn {
+    color: inherit;
+}
+
+.megamenu-menu-panel input[type='text'] {
+    background: inherit;
+    border: 0;
+    border-bottom: 1px solid;
+}
+
+#recent-file-panel-action-btn {
+    background: inherit;
+    border: 1px grey solid;
+}
+
+.megamenu-menu-panel .dropdown-menu > li > a {
+    color: inherit;
+    background-color: #2F353A;
+    text-decoration: none;
+}
+
+.megamenu-menu-panel table td:nth-child(1) {
+    color: inherit;
+    font-weight: bold;
+}
+
+.megamenu-menu-panel tbody tr:hover td:nth-child(1) {
+    color: white;
+}
+
+.modal-footer .btn-default, 
+.modal-footer .btn-primary,
+.modal-footer .btn-default:not(:hover) {
+    border: 1px solid;
+    border-color: transparent;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+    color: white;
+    border: 1px solid #ddd;
+    background-color: inherit;
+}
+
+.modal-header {
+    border-bottom: 0;
+}
+
+.modal-footer {
+    border-top: 0;
+}
+
+#recent-file-panel tbody tr:nth-child(2n-1) {
+    background-color: transparent !important;
+}
+
+.megamenu-menu-panel tbody tr:hover td:nth-child(2) {
+    color: inherit;
+}
+
+.megamenu-menu-panel .btn {
+    border: 1px solid #eee;
+    background: transparent;
+}
+
+.mouse-hover .toolbar-icon.btn:hover,
+#w-full.mouse-hover,
+#w-pin.mouse-hover {
+    background-color: inherit;
+}
+
+.typora-node::-webkit-scrollbar {
+    width: 5px;
+}
+
+.typora-node::-webkit-scrollbar-thumb:vertical {
+    background: rgba(250, 250, 250, 0.3);
+}
+
+.typora-node::-webkit-scrollbar-thumb:vertical:active {
+    background: rgba(250, 250, 250, 0.5);
+}
+
+#w-unpin {
+    background-color: #4182c4;
+}
+
+#top-titlebar, #top-titlebar * {
+    color: var(--item-hover-text-color);
+}
+
+.typora-sourceview-on #toggle-sourceview-btn,
+#footer-word-count:hover,
+.ty-show-word-count #footer-word-count {
+    background: #333333;
+}
+
+#toggle-sourceview-btn:hover {
+    color: #eee;
+    background: #333333;
+}
+
+/** focus mode */
+.on-focus-mode .md-end-block:not(.md-focus):not(.md-focus-container) * {
+    color: #686868 !important;
+}
+
+.on-focus-mode .md-end-block:not(.md-focus) img,
+.on-focus-mode .md-task-list-item:not(.md-focus-container)>input {
+    opacity: #686868 !important;
+}
+
+.on-focus-mode li[cid]:not(.md-focus-container){
+    color: #686868;
+}
+
+.on-focus-mode .md-fences.md-focus .CodeMirror-code>*:not(.CodeMirror-activeline) *,
+.on-focus-mode .CodeMirror.cm-s-inner:not(.CodeMirror-focused) * {
+    color: #686868 !important;
+}
+
+.on-focus-mode .md-focus,
+.on-focus-mode .md-focus-container {
+    color: #fff;
+}
+
+.on-focus-mode #typora-source .CodeMirror-code>*:not(.CodeMirror-activeline) * {
+    color: #686868 !important;
+}
+
+
+/*diagrams*/
+#write .md-focus .md-diagram-panel {
+    border: 1px solid #ddd;
+    margin-left: -1px;
+    width: calc(100% + 2px);
+}
+
+/*diagrams*/
+#write .md-focus.md-fences-with-lineno .md-diagram-panel {
+    margin-left: auto;
+}
+
+.md-diagram-panel-error {
+    color: #f1908e;
+}
+
+.active-tab-files #info-panel-tab-file,
+.active-tab-files #info-panel-tab-file:hover,
+.active-tab-outline #info-panel-tab-outline,
+.active-tab-outline #info-panel-tab-outline:hover {
+    color: #eee;
+}
+
+.sidebar-footer-item:hover,
+.footer-item:hover {
+    background: inherit;
+    color: white;
+}
+
+.ty-side-sort-btn.active,
+.ty-side-sort-btn:hover,
+.selected-folder-menu-item a:after {
+    color: white;
+}
+
+#sidebar-files-menu {
+    border:solid 1px;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.79);
+    background-color: var(--bg-color);
+}
+
+.file-list-item {
+    border-bottom:none;
+}
+
+.file-list-item-summary {
+    opacity: 1;
+}
+
+.file-list-item.active:first-child {
+    border-top: none;
+}
+
+.file-node-background {
+    height: 32px;
+}
+
+.file-library-node.active>.file-node-content,
+.file-list-item.active {
+    color: white;
+    color: var(--active-file-text-color);
+}
+
+.file-library-node.active>.file-node-background{
+    background-color: rgb(34, 34, 34);
+    background-color: var(--active-file-bg-color);
+}
+.file-list-item.active {
+    background-color: rgb(34, 34, 34);
+    background-color: var(--active-file-bg-color);
+}
+
+#ty-tooltip {
+    background-color: black;
+    color: #eee;
+}
+
+.md-task-list-item>input {
+    margin-left: -1.3em;
+    margin-top: 0.3rem;
+    -webkit-appearance: none;
+}
+
+.md-mathjax-midline {
+    background-color: #57616b;
+    border-bottom: none;
+}
+
+footer.ty-footer {
+    border-color: #656565;
+}
+
+.ty-preferences .btn-default {
+    background: transparent;
+}
+.ty-preferences .btn-default:hover {
+    background: #57616b;
+}
+
+.ty-preferences select {
+    border: 1px solid #989698;
+    height: 21px;
 }
 
 .ty-preferences .nav-group-item.active {
+    background: var(--item-hover-bg-color);
+}
+
+.ty-preferences input[type="search"] {
+    border-color: #333;
+    background: #333;
+    line-height: 22px;
+    border-radius: 6px;
     color: white;
-    background: #999;
+}
+
+.ty-preferences input[type="search"]:focus {
+    box-shadow: none;
+}
+
+[data-is-directory="true"] .file-node-content {
+    margin-bottom: 0;
+}
+
+.file-node-title {
+    line-height: 22px;
+}
+
+.html-for-mac .file-node-open-state, .html-for-mac .file-node-icon {
+    line-height: 26px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(230, 230, 230, 0.30);
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: rgba(230, 230, 230, 0.50);
+}
+
+#typora-sidebar:hover div.sidebar-content-content::-webkit-scrollbar-thumb:horizontal {
+    background: rgba(230, 230, 230, 0.30);
+}
+
+.nav-group-item:active {
+    background-color: #474d54;
+}
+
+.md-search-hit {
+    background: rgba(199, 140, 60, 0.81);
+    color: #eee;
+}
+
+.md-search-hit * {
+    color: #eee;
+}
+
+#md-searchpanel input {
+    color: white;
+}
+
+.export-detail,
+.export-item.active,
+.export-items-list-control {
+    background: #d6d6d4
 }
 
 
 </style>
 </head>
-<body class='typora-export os-windows' >
-<div  id='write'  class = 'is-node'><h1><a name="chenyu-yan" class="md-header-anchor"></a><span>Chenyu Yan</span></h1><p><span>MS, Xi&#39;an Jiaotong University, PRC</span></p><p><img src="img/mail.png" height="25" width="30;" /><span> </span><a href='mailto:leo-chenyu.yan@stu.xjtu.edu.cn' target='_blank' class='url'>leo-chenyu.yan@stu.xjtu.edu.cn</a><span> </span></p><h2><a name="education-background" class="md-header-anchor"></a><span>Education Background</span></h2><p><span>I received BS degree with Electrical Engineering and Automation (GPA: 3.7, 10%) from </span><a href='http://zdhxy.nwpu.edu.cn/English/English/Home.htm'><span>Northwestern Polytechnical University(NPU)</span></a><span> in People Republic of China(PRC) in June 2016 and the topic of thesis is &quot;Design of large scale Lithium-ion battery stack management system based on ARM&quot;. I received MS degree with Electrical Engineering (GPA: 3.7, 5%) from </span><a href='http://ee.xjtu.edu.cn/English_Version1/home.htm'><span>Xi&#39;an Jiaotong University(XJTU)</span></a><span> in PRC in June 2019 and the topic of thesis is &quot;Research on Electrical Breakdown Property of Polypropylene Nanocomposite Dielectric Modulated by Charge Transport and Molecular Displacement&quot;. </span></p><p><span>During master&#39;s study,  I was in Prof. </span><a href='http://gr.xjtu.edu.cn/web/sli/23;jsessionid=3EE36B730115F7EC2AB0CDF2C0723015'><span>Shengtao Li</span></a><span>&#39;s group and my  research focused on high voltage electric transmission, electrical property of nanocomposite  and charge transport modeling calculation. In the past 3 years, I have a relatively good understanding of high voltage transmission, electrical material (especially nano material and device) fabrication, characterization and testing, charge transport modeling and numerical calculation. Under my prof. </span><a href='http://gr.xjtu.edu.cn/web/sli/22'><span>Daomin Min</span></a><span>&#39;s guidance, I gradually formulated ability to deal with academic research and got a deeper insight towards the electrical engineering. During this period, I was involved in 3 projects and had 15 papers published.</span></p><h2><a name="publications" class="md-header-anchor"></a><span>Publications </span></h2><p><img src="img/ResearchGate.jpg" height="30" width="35;" /><span> </span><a href='https://www.researchgate.net/profile/Chenyu_Yan4'><span>My Research Gate</span></a><span> </span></p><ol start='' ><li><span>Min DM, </span><u><strong><span>Yan CY</span></strong></u><span>, Huang Y, et.al. Dielectric and carrier transport properties of silicone rubber degraded by gamma irradiation[J]. Polymers, 2016, 9(10): 1-15 (SCI: 000414913800071; EI: 20174304306504)</span></li><li><span>Min DM, </span><u><strong><span>Yan CY</span></strong></u><span>, Mi R, et.al. Carrier Transport and Molecular Displacement Modulated dc Electrical Breakdown of Polypropylene Nanocomposites[J]. Polymers, 2018, 10(11): 1-20 (SCI: 000454456800029; EI: 20184606058526) </span></li><li><span>Min DM, Li YW, </span><u><strong><span>Yan CY</span></strong></u><span>, et.al. Thickness Dependent dc Electrical Breakdown of Polyimide Modulated by Charge Transport and Molecular Displacement[J], 2018, Polymers, 10(9): 1-18 (SCI: 000449988800081; EI: 20183805840118)</span></li><li><span>Min DM, </span><u><strong><span>Yan CY</span></strong></u><span>, Wang WW, et al. Electrical breakdown of polymer nanocomposites modulated by space charges[C]. IEEE 17th International Conference on Nanotechnology, 2017: 267-269 (EI: 20180604700270)</span></li><li><span>Xie DR, </span><u><strong><span>Yan CY</span></strong></u><span>, Huang Y, et al. Study on short-term dc breakdown and corona resistance mechanism of polyimide. Proceedings of 2017 International Symposium on Electrical Insulating Materials, 2017: 437-441 (EI: 20180704798615) </span></li><li><span>Kang WB, </span><strong><u><span>Yan CY</span></u></strong><span>, Li ST, et al. Trap and carrier transport of pristine and aged silicone rubber by surface potential measurements[C]. Proceedings of 2017 International Symposium on Electrical Insulating Materials, 2017: 207-210 (EI: 20180704798674)</span></li><li><span>Li SJ, Yan W, </span><u><strong><span>Yan CY</span></strong></u><span>, et al. Surface trap and carrier transport of aged and pristine oil-paper under harmonic voltage by surface potential decay[C]. IEEE Conference on Electrical Insulation and Dielectric Phenomenon, 2017:94-97 (EI: 20181505007629) </span></li><li><span>Cheng L, Chi XH, </span><u><strong><span>Yan CY</span></strong></u><span>, et al. Polypropylene nanocomposite for power equipment: a review[J]. IET Nanodielectrics, 2018, 1(2): 92-103 </span></li><li><span>Min DM, </span><u><strong><span>Yan CY</span></strong></u><span>, Huang Y, et.al. Influence of filler content on conductivity of epoxy resin nanocomposites[C]. The 20th International Symposium on High Voltage Engineering, 2017: 1-6</span></li><li><span>Min DM, </span><u><strong><span>Yan CY</span></strong></u><span>, Mi R, et al. Space-charge modulated electrical breakdown in polyethylene nanodielelctrics[J]. IEEE Nanotechnology Magazine, 12(2): 15-22.</span></li><li><span>Mi R, </span><u><strong><span>Yan CY</span></strong></u><span>, Wu QZ, Min DM, Li ST. Effect of deep traps and molecular motion on dc breakdown of polyethylene nanocomposites[C]. IEEE Conference on Electrical Insulation and Dielectric Phenomenon 2019 </span></li><li><span>Li YW, </span><u><strong><span>Yan CY</span></strong></u><span>, Min DM, Li ST. Numerical simulation on dc breakdown of polyimide based on charge transport and molecular chain displacement[C]. IEEE Conference on Electrical Insulation and Dielectric Phenomenon 2019</span></li><li><span>Kang WB, Meng SX, Cui HZ, Li YW, Mi R, </span><u><strong><span>Yan CY</span></strong></u><span>, Min DM, Li ST. Space charge accumulation in silicone rubber influenced by Poole-Frenkel effect[C]. International Conference on novel functional materials, 2018: 1-5 (EI: 20185306321507)</span></li><li><span>Cui HZ, Xing ZL, Wu QZ, </span><u><strong><span>Yan CY</span></strong></u><span>, Mi R, Min DM, and Li ST. Accumulation of space charges in epoxy resin nanodielectrics influenced by Poole-Frenkel effect, International Conference on novel functional materials 2019 </span></li><li><span>Kang WB, Meng SX, Cui HZ, </span><u><strong><span>Yan CY</span></strong></u><span>, Min DM, Li ST. Trap and dielectric property evolution of silicone rubber insulation under power frequency voltage superimposed harmonic [J]. High voltage (Chinese)    </span></li></ol><h2><a name="scholarship-and-awards" class="md-header-anchor"></a><span>Scholarship and Awards </span></h2><h3><a name="scholarship" class="md-header-anchor"></a><span>Scholarship</span></h3><ol start='' ><li><span>National Scholarship</span><span>	</span><span>2018.11 &amp; 2017.11</span></li><li><span>First class scholarship    2018.11 &amp; 2017.11</span></li><li><span>Scholarship for excellent freshman    2016.09</span></li><li><span>Provincial special scholarship    2015.09</span></li><li><span>First class scholarship    2015.09 &amp; 2014.09 &amp; 2013.09</span></li><li><span>E+H special scholarship    2014.09</span></li></ol><h3><a name="awards" class="md-header-anchor"></a><span>Awards</span></h3><ol start='' ><li><span>Outstanding graduated student    2019.06</span></li><li><span>Merit master student award    2018.11 &amp; 2017.11</span></li><li><span>National Mathematical Contest in Modeling for Graduated students, Honorable mention    2017.11</span></li><li><span>Outstanding graduated student    2016.06</span></li><li><span>The 5th session of MathorCup Mathematical Contest in Modeling, Outstanding award    2015.06</span></li><li><span>College Students&#39; Innovative Entrepreneurial Training Plan Program, three projects in 2015 and 2014</span></li><li><span>International Mathematical Contest in Modeling (MCM), Honorable mention    2015.03</span></li><li><span>National Mathematical Contest in Modeling, Outstanding award    2014.11</span></li><li><span>Best debater in debate competition in China   2014.10</span></li><li><span>Excellent world teenager in Japan, Korea and China forum    2014.09</span></li><li><span>Merit student award    2015.11 &amp; 2014.11 &amp; 2013.11</span></li></ol><h2><a name="highlights-of-research" class="md-header-anchor"></a><span>Highlights of research</span></h2><p><strong><span>Carrier Transport and Molecular Displacement Modulated (CTMD) model</span></strong></p><p><span>This model considers the charge injection, migration, trapping/detrapping and recombination dynamic process and depicts the continuous motion process of charges in the bulk of dielectrics.</span></p><p><img src="https://i.loli.net/2020/06/05/G1p9ghzKWNAemIj.png" alt="image-20200519225453984" style="zoom:80%;" /></p><center> Fig. Scheme of CTMD model and molecular chain displacement model</center><p>&nbsp;</p><p><span>Charges are continuously injected from electrodes to the bulk of samples and they may be captured by traps (both shallow traps and deep ones). When captured by deep traps, which means charges need to obtain higher energy to detrap, charge keep retention for a longer period. Also, during the migration from one electrode to another one, combination may occur when a positive charge encounters a negative one. Such a dynamic process includes entire charge motion process.  By setting boundaries of model and solving Poisson&#39;s equation, This model is used for calculating the charge transport property in the bulk of insulating material, including numerical calculation of space charge and electrical field distribution, energy gained by electrons as well as electrical strength. This model was once used for explaining the electrical breakdown behavior of polypropylene (PP, used for film of power capacitor) nanocomposite. By combining the experimental results and calculation of model, hidden electrical breakdown mechanism of PP nanocomposite was revealed. Details regarding the model can be seen in </span><a href='#'><span>Carrier Transport and Molecular Displacement Modulated dc Electrical Breakdown of Polypropylene Nanocomposites</span></a><span>.</span></p><p><span>Based on this model, we investigate the electrical breakdown property of PI samples with various thicknesses. It is found that similar mechanism modulates the breakdown behavior of PI and simulations results are better fit than the space charge electrical breakdown (SCEB) model. Relating results and comparison can be found in </span><a href='#'><span>Thickness-Dependent DC Electrical Breakdown of Polyimide Modulated by Charge Transport and Molecular Displacement.</span></a></p><p><strong><span>Dielectric property simulation of insulating material</span></strong></p><p><span>Method of modeling on dielectric property of aging Silicone Rubber is proposed. Specifically, by fitting the spectra to theoretical equations, we separated different polarization processes at various frequencies and calculated the values of corresponding parameters like thermal expansion coefficient, swelling ratio, etc.. By utilizing the correlations among various parameters, polarization property and specific process of SiR was delineated. Additionally, paper investigated the influence of degradation on the dielectric constant at high frequencies, ion concentration, conductivity and trap distribution, illustrating the charge transport property in the bulk of SiR and revealed the hidden cause for polarization. More information can be seen in </span><a href='#'><span>Dielectric and Carrier Transport Properties of Silicone Rubber Degraded by Gamma Irradiation</span></a></p><p>&nbsp;</p><p><span>For your information, more papers can be found in:</span></p><ul><li><a href='#'><span>Electrical breakdown of polymer nanocomposites modulated by space charges</span></a></li><li><a href='#'><span>Study on short-term dc breakdown and corona resistance mechanism of polyimide</span></a></li><li><a href='#'><span>Trap and carrier transport of pristine and aged silicone rubber by surface potential measurements</span></a></li><li><a href='#'><span>Surface trap and carrier transport of aged and pristine oil-paper under harmonic voltage by surface potential decay</span></a></li><li><a href='#'><span>Polypropylene nanocomposite for power equipment: a review</span></a></li><li><a href='#'><span>Space-charge modulated electrical breakdown in polyethylene nanodielelctrics</span></a></li><li><a href='#'><span>Effect of deep traps and molecular motion on dc breakdown of polyethylene nanocomposites</span></a></li><li><a href='#'><span>Numerical simulation on dc breakdown of polyimide based on charge transport and molecular chain displacement</span></a></li><li><a href='#'><span>Space charge accumulation in silicone rubber influenced by Poole-Frenkel effect</span></a></li><li><a href='#'><span> Accumulation of space charges in epoxy resin nanodielectrics influenced by Poole-Frenkel effect</span></a></li><li><a href='#'><span>Dielectric properties of aged and pristine oil-paper under harmonic voltage by frequency domain spectroscopy</span></a></li></ul><h2><a name="thesis-paper" class="md-header-anchor"></a><span>Thesis paper</span></h2><p><span>Title of my thesis paper is  &quot;Research on Electrical Breakdown Property of Polypropylene Nanocomposite Dielectric Modulated by Charge Transport and Molecular Displacement&quot;. By combining the experimental results and modeling calculation results, the thesis proposes an explanation for demonstrating the mechanism of electrical breakdown property of PP/Al</span><sub><span>2</span></sub><span>O</span><sub><span>3</span></sub><span> nanocomposite. </span></p><h3><a name="overview-on-structure" class="md-header-anchor"></a><span>Overview on structure</span></h3><p><span>Entire research of thesis includes sample fabrication, characterization and testing as well as modeling and analysis, shown as the graph below.</span></p><p><img src="https://i.loli.net/2020/05/05/oZLPCDlVdXj6Ka7.jpg" referrerpolicy="no-referrer" alt="Research schem"></p><p>&nbsp;</p><h3><a name="summary-of-results" class="md-header-anchor"></a><span>Summary of results</span></h3><p><span>It is worth mentioning that, based on the summary of current  synthetise method of nanocomposite, the thesis employed a new fabrication method to prepare samples, which turns out that fillers homogeneously  dispersed and both stability and dielectric property were enhanced compared with former results that employed original method.  </span></p><p><span>The thesis correlate the characterization and testing results, namely morphology, thermal, crystallization property and polarization, trap distribution, electrical strength, conductivity property. After analyzing the correlations among different property of samples, it was concluded that trap distribution has a main effect on electrical breakdown property of PP/Al</span><sub><span>2</span></sub><span>O</span><sub><span>3</span></sub><span> nanocomposite. </span></p><p><span>By comparing previous analysis and simulation results with the CTMD model, mechanism of PP/Al</span><sub><span>2</span></sub><span>O</span><sub><span>3</span></sub><span> nanocomposite has been revealed. It turns that nanofiller introduced interfacial regions to the neat material. Therefore, trap distribution in the bulk of material is altered, leading to the changes in distribution of space charge and electrical field distribution. Also, due to the occupation effect of charges in the traps, molecular motion may be impeded , leading to an increase in energy gained by electrons and spur of local current. Such a coordination process results the electrical breakdown property of nanocomposites. Results of thesis well explained the reasons for electrical breakdown property enhancement, which is significant for further study on modulating electrical strength even other electrical properties of nanocomposites.</span></p><p><img src="https://i.loli.net/2020/05/06/N1zw7r5CO68IeAs.png" alt="PPT里用的结论框图" style="zoom: 50%;" /></p><center> Fig. Mechanism of electrical breakdown process of PP nanocomposite</center><h2><a name="project-experience" class="md-header-anchor"></a><span>Project Experience</span></h2><ul><li><strong><span>Influence of molecular chain motion property in interfacial regions on dc breakdown property of polyethylene nanocomposites (National Natural Science Foundation of China) </span></strong><span> </span></li></ul><center><img src="img/NSFC.jpg" height="160" width="190;" div="" align="center"><center></center></center><p><span>This project was originated from the need for enhancing breakdown property of polyethylene to meet up with its demand for high voltage power transmission. Based on the motion property of molecular chains at the interfacial regions, this study investigated its impact on dc breakdown property of polyethylene nanocomposites and revealed the mechanism of nanocomposite breakdown. I&#39;m responsible for experiments progress and paper writing (academic paper and project report).</span></p><ul><li><strong><span>Insulating property and its regularity of dielectrics in current transfer and energy dissipation (National Key Basic Research Program (973) sub-project)</span></strong><span> </span></li></ul><center>  <img src="img/973.jpg" height="130" width="180;" div="" align="center">  </center><p><span>This project investigated the coupling impact of space charge accumulation, transient arc micro particle bombardment, metal particle deposition on the falshover property of fractrue insulating system in the process of dc arc switching, and revealed its influence regularity and failure mechanism. Based on nanocomposition modification tech, study figured out the the methods to suppress the space charge accumulation and metal particle deposition in the fracture insulating system and proposed approaches to resist flashover damage and aging. This research provided the theoretical and technology support for enhancing the voltage, current as well as lifespan of circuit breaker. I was mainly involved in the modeling of energy accumulation and flashover process, and investigated the influence of charge transport parameters and temperature on flashover behavior.</span></p><ul><li><strong><span>Charge transport property in silicone rubber under harmonic aging (Project of China Electric Power Research Institute)</span></strong><span> </span></li></ul><p><span>This project was originated from the need that power equipment like cable and bush are easier to be aged under the high-order harmonics, which hence deteriorated the performance of power system. The study, taking the silicon rubber from the outer coat of cable terminals and the insulating oil paper in the bush as the research objects, quantificationally manifested the aging status and summarized the insulating material deterioration regularity. In addition, aging model for cable and bush were proposed to predict their odd lifespans and the mechanism of aging have been demonstrated. I was responsible for experiment design, experiment accomplishment, modeling calculation and paper writing.</span></p><h2><a name="work-experience-and-internship" class="md-header-anchor"></a><span>Work Experience and Internship</span></h2><p><strong><span>State Grid Corporation of China   Department of Information and Internet</span><span>	</span><span>2019.09 - Now</span></strong><span> </span></p><center><img src="img/SGCC.jpg" height="150" width="240;" div="" align="center"></center><p><span>I worked in State Grid Corporation of China (SGCC), known as the largest corporation in China, for half a year. In this period, I worked as a member in Department of Information and Internet, which focuses on data collection and processing to propose practical suggestions for the development of corporation. I have been involved in a project to predict short-term load of grid power, including day load forecast and workload forecast. This work aimed at suppressing illegal electric larceny especially in corporation with relatively higher demand for electric resources, so that the lost profits can be reclaimed and SGCC also has a greater power to better distribute the power transmission. In this project, I was responsible for forecast modeling and data processing, which provided the basis of prediction. Specifically, with the previous data of electric usage as the input, model was based on RNN and LSTM model to forecast the electric demand for following 7 days. By comparing with realistic values, it was proved that model had a relatively high precision and value of MAPE was around 2.4%.</span></p><p><strong><span>Asea Brown Boveri Ltd., China      Electrical Engineer Internship        2016.05-2016.09</span></strong><span> </span></p><center><img src="img\ABB.png" height="120" width="200" div="" align="center" style="zoom:80%;"></center><p><span>I was a internship of technology department in ABB for four months. During this period, I have the initial understanding of industrialization of power system, especially the power capacitor. With an increase in familiarity with equipment, I have a more lucid concept for structure of power system and commercial market in this field. Plus, with the support of investigation in the equipment workshop, I learned the processing flow of capacitor, starting from the polypropylene film fabrication to the component assembly. In addition, I also got an opportunity to be engaged in the technical discussion with foreign experts, which largely bring inspiration to my further exploration on the research. Through intensive discussion, I found that increasing demand for high voltage transmission had been an urgent need for the grids in China, property of electric breakdown, however, was a key factor that determined the performance of power capacity. Therefore, when choosing the major field in my master phase, I forwardly approached to my professor and expressed my plan on the research of breakdown property of polypropylene. One more thing, it is worth being mentioned that I developed a program based on C++ during my internship to help collecting documents to meet the needs of engineers, which has been integrated to the system of ABB and used until now.</span></p><h2><a name="personal-statement" class="md-header-anchor"></a><span>Personal Statement</span></h2><p><span>In the study of past seven years, I keep conscientious on my study and got a relatively good grade, which guarantee my solid knowledge basis of Electrical Engineering. I have ever obtained national scholarship, first campus scholarship, special scholarship, freshman scholarship for over 10 times and were awarded as excellent student, excellent graduated student for 9 times. In addition to hectic study, I was also enthusiastically engaged in activities and competitions. I participated </span><strong><span>Mathematical Contest in Modeling</span></strong><span> and obtained international/national award for 7 times. I do enjoy MCM, since it can bring lots of uncertainty and I need to learn some new knowledge and skills in a short time, during which I need to cooperate with my teammates and summarize possible methods. After successive data collection, modeling and calculation, as well as numerical verification were conducted and this entire process is concluded in an essay to illustrate how to solve problems in a large scale. Experience of MCM helps to build a good mathematical thinking and a good ability to modeling calculation as well as paper writing. Moreover, I also have attended </span><strong><span>Model United Nation Conference</span></strong><span> for several times, which largely inspires me to know a bigger world, gender equality, international economy, racial discrimination and numerous topics effectively broaden my horizon and formulate my ability to research, negotiate, caucus and cooperate with other people. It needs to be mentioned that my spoken and written English was largely promoted after intensive training for conferences. Similar to MUN conference, </span><strong><span>debate competitio</span></strong><span>n (including Chinese competition and English competition) also helped to bring up ability of logical thinking and effective communication. Training of competition leads me to better interact with people and have a structural framework when analyzing problems. All these activities can foster my personal ability to some extent and finally revealed in my learning and research, I hence do have confidence on my learning ability and potential possibilities.</span></p><p><span>In addition to academic research and activity enrollment, I was also passionately involved in internship and practical work. I have intern/work experience in </span><strong><span>ABB</span></strong><span> and </span><strong><span>STATE GRID Corporation of China</span></strong><span>. After graduating from NPU, I chose to do intern work in ABB for 4 months. During this period, I have an initial understanding of industrialization of power system, especially the power capacitor. With an increase in familiarity with equipment, I have a more lucid concept for structure of power system and commercial market in this field. Plus, with the support of investigation in the equipment workshop, I learned the processing flow of capacitor, starting from the polypropylene film fabrication to the component assembly. In addition, I also got an opportunity to be engaged in the technical discussion with foreign experts, which largely bring inspiration to my further exploration in this field. Through intensive discussion, I found that increasing demand for high voltage transmission had been an urgent need for the grids in China, property of electric breakdown, however, was a key factor that determined the performance of power capacity. Therefore, when choosing the major field in my master phase, I forwardly approached to my professor and expressed my plan on the research of breakdown property of polypropylene. Different from most researches, I attached more emphasis on the simulation and modeling calculation, which can reveal the interior mechanism and bring more novel ideas to this field. One more thing, it is worth being mentioned that I </span><strong><span>developed a program based on C++</span></strong><span> during my internship to help collecting documents to meet the needs of engineers, which was applied to be integrated to power production management system and used until now. After graduating from XJTU, I worked in State Grid Corporation of China (SGCC), known as the largest power corporation in China, for half a year. In this period, I worked as a member in Department of Information and Internet, which focuses on data collection and processing to propose practical suggestions for the development of corporation. I have been involved in a project of predicting short-term load of grid power, including day load and workload forecast. This work aimed at suppressing illegal electric larceny especially in corporation with relatively higher demand for electric resources, so that the lost profits can be reclaimed and SGCC also has a greater power to better distribute the power transmission. In this project, I was responsible for forecast modeling and data processing, which provided the basis of prediction. Specifically, with previous data of electric usage as the input, model was based on RNN and LSTM model and parameters were determined by data training to forecast the electric demand for following 7 days. By comparing with realistic values, it was proved that model had a relatively high precision and value of MAPE was around 2.1%. This can be a relative basis for following study regarding the machine learning and artificial intelligence, which is promising to foster interdisciplinary research.</span></p><p><span>Project experience is very important for one’s combination of theoretical knowledge and practical skills. I have ever participated in three projects in BS phase, which were all originated from National innovation training program. Their research scale covers design of lithium battery system management system, design of signal transmission system with high performance, and campus faculty evaluation system development. These projects provided basic research experience to me. Specifically, it taught me have an initial concept of engineering practice and academic research. When it comes to MS phase, I have ever been involved in three projects. </span></p><p><span>My previous academic and researches do pave the way my following study and I am confident in fulfilment of this program.</span></p><h1><a name="statement-of-purpose" class="md-header-anchor"></a><span>Statement of Purpose</span></h1><p><span>During the learning and research in past few years, I had a deeper insight into the academic research and the desire to explore the unknown. Decision of applying for OMSCS at Galtech has been carefully considered and I do make much preparation for this program. Here I will make a brief summary regarding why I want to take this program. </span></p><p><span>The first time I heard about OMSCS program from my friend who was participating in it. Enlightened by his recommendation, I came to know more about this program. Initially, I thought online course may be not be tantamount to on campus courses, where there is a huge gap between them for many reasons like sparse interaction with professor and less decent class experience, however when coming to know more details like the course structure and class arrangement, I find it really perfectly matches my need. For one thing, I can largely extend my insight towards computer science to make preparation for following study and the teachers are really conscientious in teaching and interaction with students, for another thing, I have many options on course selection, like Computer Network, Database, Compiler, High Performance Computing Architecture, Operation System / Advanced OS, Algorithm, which are well consistent with my needs. I can find the most suitable courses for me and I can complete some significant work with classmates, which is really attractive. Then I decided to apply for program of 2020 Fall, however, plagued by COVID-19, I cannot take exams as planned but can only use the score taken before. I have to say that I do have capability to freely communicate with classmates and hardly have any barriers in comprehending online classes. If possible, I’m so willing to have an online interview for language qualification. </span></p><h3><a name="a-systematic-study-of-cs" class="md-header-anchor"></a><span>A Systematic Study of CS</span></h3><p><span>In the first place, I want to have a systematic study of computer science rather than previous intermittent study. Actually, I have a good foundation for computer science learning, since not only the courses and project experience in BS stage but my research interest is close to programming. However, I never had a systematical and serial training experience before, what I grasped is fragmented and not coherent. Recalling my programming experience, since the BS stage, I take obligatory courses including C++ theory, C++ application, software development, computer controlling technology and so on. I started to get familiar with coding via C++ and computer science. In the third year in my BS phase, I undertook a College Students&#39; Innovative Entrepreneurial Training Plan Program regarding the system for evaluation of faculty on campus. In that project, I developed the evaluation system based on C++. Compared with original system, new one can accurately determine the authenticity of takers&#39; answers and got a comprehensive evaluation of teachers. In this project, my coding ability has much progress for it is the first time that I have acquaintance with practical project. Afterwards, I came to realize that coding is a tiny piece of entire computer science and it is quite necessary to have a well-rounded understanding regarding computer science. Then I came to read some books like Data Structures and Algorithm Analysis, Computer System a Programmer&#39;s perspective, which taught me how computer processes my code and how to better and efficiently start a conversation between us. When being involved in the study in master&#39;s period, a project required to collect vast data and give a prediction to the lifespan of electrical bush and oil paper, which means I have to be capable of web crawler and machine learning. I came to learn Python and machine learning and I quickly, with no surprise, got familiar with Python programming based on familiarization of C++. Then I started to efficiently collect data via the web crawler and build forecasting model to quantitatively predict the lifespan of dielectric material, which turns to be in a good agreement with actual value. Afterwards, I tried to learn Machine Learning (provided by Stanford University) and Data science (provided by IBM) to have a better understanding of technical trends and utilization. It is easy to find that my previous study kept going along with my research need, which on one hand can guarantee that what I learnt can well settle the problems I confronted, while on the other hand, it is inevitable to omit some important details that may not be useful for my research at that time but crucial for understanding this course. Compared with a tyro, I clearly know what I want to learn in this program and will be dedicated to do corresponding work. </span></p><h3><a name="interdisciplinary-research-between-ee-and-cs" class="md-header-anchor"></a><span>Interdisciplinary Research between EE and CS</span></h3><p><span>In addition, I intend to apply for Ph.D position of EE in future, and I do find it is important to catch the interdisciplinary research between EE and CS, for it has been continuously proved that more and more researches are gradually detached from conventional direction but turns to combination of various tools to seek for opportunity to yield more extraordinary findings. For example, machine learning has been used for selection of nanofiller for fabrication for nanocomposite to obtain better thermodynamic or electrical property, forecast model was used for harbingering the failure of equipment or status diagnosis, or foresee the lifespan of certain dielectric or component in the grid system. All these advanced researches are based on conventional study, when combining with tools provided by computer science, however, they become more innovative and compelling. Therefore, knowledge of computer science has already been beyond the subject itself to generate valid tools to support research of other subjects. What’re more, Gatech is very celebrated in engineering field, some excellent students in our lab also were enrolled in Ph.D program in Gatech, which is also my goal after finishing this online program if admitted. I believe when applying for Ph.D position, compared with other convinced competitors, I have a relatively good academic background and the basic knowledge accumulation of computer science, it is more possible to attract attention and get higher admission possibility.</span></p><h3><a name="an-oversea-study-experience" class="md-header-anchor"></a><span>An Oversea Study Experience</span></h3><p><span>Furthermore, I want to have an oversea study experience. Prior to applying for this program, though going to USA for several times, I never had opportunity to study abroad. It is true that this online program has some distinctions with on-campus study, however, it can give me a chance to have an initial understanding and familiarization of study in a different environment, including interaction with professors and classmates and experience on a series of study procedure in American university education system, like how to choose courses and take examinations, what projects or tasks I need to complete, how to more efficiently involved in the study in the classes of American universities, which is of great significance for my following study. </span></p><h3><a name="special-virtues-of-program" class="md-header-anchor"></a><span>Special Virtues of Program</span></h3><p><span>Plus, compared with other online program, I am inclined to take the OMSCS at Gatech. Firstly, compared with online courses like Coursera or MOOC, which is also chosen by lots of people, as far as I&#39;m concerned, courses provided by online institutes are mainly focused on a sketchy introduction, and tasks are easy to complete for it is intended for a large population rather than the audience that need a deeper learning, which means I cannot have adequate access to be engaged in teamwork or be unable to obtain resources of more difficult challenges. Therefore, an online master program is obviously more suitable for me, in which I can experience “Real Study” and acquire a positive cycle in learning. Secondly, compared with programs provided by other universities, the reputation of computer science program in Gatech is considerably profound, which is more convincing when applying for further Ph.D program. Graduated students from Gatech with a MSCS degree are considerably competitive in job market and have more possibilities to come into renowned company like Apple, Google, Microsoft, Amazon, etc.. Though this may not be my ambitious goal, it can prove the education quality and I have acquaintance with this program on many ways, where the feedbacks I got are almost all highly positive. In this regard, I deem that this program is abundant in course provision and skilled in class design, where I can obtain far more than online course or other programs. My decision to attend this program thereby becomes more solid. Compared with other competitors, I believe I do have a good ability of learning and basis of computer science. Therefore, I am confident in completing the program. Firstly, I have a relatively good coding basis and experience. Mathematical model competition and previous numerical calculation research help to form a good sense of mathematical thinking, modeling and programming basis, also, involvement in projects and some courses foster my understanding of CS. Besides, I feel like absorbing new knowledge and skills in a new field, which really makes me excited. Feeling of be puzzled by a problem and try to settle it down does yield a great sense of achievement, which inspires me to keep going forward in turn. </span></p><h3><a name="combination-of-learning-and-application" class="md-header-anchor"></a><span>Combination of Learning and Application</span></h3><p><span>In this program, I not only want to learn related knowledge and complete corresponding assignments and projects, but want to apply what I learnt to my current work. For example, like referred before, we used to build up architecture based on RNN and LSTM to forecast usage of electricity of users especially the industrial electricity usage, which turned out to be in a good agreement with actual value. We also recognize regional difference of cost of electricity and proposed the method to implement Joint Distribution Adaptation to improve our project performance. At present, we are building a central data platform and I’m a participator in this program. This program pays attention to a huge amount of data, as the only supplier of electricity in China, SGCC holds plenty of data like the utilization behavior of electricity for different citizen customers, variation of amount for different industrial customers, charging variation and efficiency of charging pile for electric vehicles and so on. Such a considerable series of data can generate numerous benefits both for SGCC and customers but hasn’t been fully exploited. For instance, investment of power charging pile is a huge sunk cost, which however is profitable in a long run especially with an increase in proportion of electric vehicles. Current power distribution tech can effectively modulate the usage of simultaneous charging, however some improper charging custom may bring disastrous consequences like the self-ignition of lithium battery or a waste of resources (like someone parks the car and keep it being charged for a long time, leading to unavailability and inefficiency of charging pile). Therefore, the problems mainly exist in how to more effectively encourage customers to use electricity for making full use of charging resources to satisfy the demand of customers and the best profit SGCC can obtain. In this regard, it is significant to design a reasonable charging logical system, which is based on the analysis of charging behavior of customers in different areas (for number of charging pile varies from one place to another and so does number of electric vehicles). We have an initial solution for this problem, specifically, we collect fees by stage and introduce automatic discharge mechanism, which is expected to largely reduce electricity resource waste and protect more customers’ needs, while data gathering and analysis can help to coordinate the distribution of electric resouces. Also, we are trying build a comprehensive service platform to cover our main service and operation, like routine experiment and maintenance of power equipment and facilities, data monitoring of charging expenditure (wave crest and peak) and status of device parameter including insulating oil temperature, switch motion, harmonic wave, etc.. All these data are essential for the operation and coordination of grid, through which we can dwindle the cost of maintenance and gain more commercial benefits. In the future, we will try to deploy our platform to the iOS Application or an applet for a more convenient use.</span></p><h3><a name="career-prospective" class="md-header-anchor"></a><span>Career Prospective</span></h3><p><span>I have adequate time and energy to dedicated to the study of program, which is the foundation for high study quality in this program. Apart from time spent on my daily work, I can also set aside much time and focus to be dedicated into this program. As mentioned above, I intend to apply for Ph.D position with EE in future, for I do like my research in MS phase, which matches more with numerical calculation and electrical devices. It is delighted that many groups are focused on this field and they do have great achievements, inspiring me to continuing moving forward in this field. Plus, most researches in their lab are not limited to electrical devices or storage tech but have correlation with material science, data science, machine learning and pattern identification, through which it is apparently seen that CS training has gradually been an necessary basic requirement for one’s Ph.D research. Especially, I want to do some research with the object of lithium battery or storage technology, since I realize that bottleneck of storage technology has limited lots of industrial applications including electric vehicle, smart phone and other mobile devices. Current researches regarding battery pay attentions to the material of electrode or electrolyte, it is undeniable that utilization of new material can bring positive contributions to performance of battery but how to get a stable result with low cost still remains investigating. Also, some battery with new structure and design are also considered. The nature of electricity is the macroscopical representation of charge migration, therefore internal charge behavior is important for the conductivity mechanism. Consequently, improvement of property leaded by battery material is also demonstrated by changes in transport property of charge, which is exactly what I want to do some work on. Though different with charge behavior under applied electric field, more factors need to be considered when measuring charge migration in electrolyte, they still have close correlations. In this process, knowledge of computer science plays an important role in research, which can half the work with double results. If possible, I want to attach more emphasis, compared with publishing papers with high index, on the industrial application of storage technology, for I firmly believe that the goal of scientific research is to bring some change, though may not profound, to the world we’re living in rather than bringing honor to one person. </span></p><p><span>It has been the consensus that computer science has already led the communication revolution to this epoch and it is inevitable that numerous fields, varying from personal life to industrial application are influenced by development of computer science technology. Steve Jobs has ever referred that he strongly recommended all people can learn to code, which not only provides a way of formulating skills but offers a route of logical thinking. It is true that, apart from useful tools for academic research, for a Ph.D student, computer science can contribute to the formation of thinking, for example, when confronting some replicate work, initial idea comes to your mind is how to effectively iterate, when facing with some data analysis, new demonstration should be proposed based on logical thinking. In the future, I hope I can have a relatively good accumulation of academic research and devote myself into academic research. I intend to continue a postdoc after getting Ph.D degree and then find a faculty position, which is consistent with my professor’s recommendation. As far as I’m concerned, I do have a keen interest in academic research and desire to make contributions to this field. Many people are dedicated themselves to the innovation and advancement for this world, though may be slight, where I also want to be a member of it. I firmly believe that study in OMSCS is a crucial cornerstone in achievement of my goal.</span></p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p></div>
+<body class='typora-export'>
+<div id='write'  class=''><h1><a name="chenyu-yan" class="md-header-anchor"></a><span>Chenyu Yan</span></h1><p><span>MS, Xi&#39;an Jiaotong University, PRC</span></p><p><img src="img/mail.png" height="25" width="30;" /><span> </span><a href='mailto:leo-chenyu.yan@stu.xjtu.edu.cn' target='_blank' class='url'>leo-chenyu.yan@stu.xjtu.edu.cn</a><span> </span></p><h2><a name="education-background" class="md-header-anchor"></a><span>Education Background</span></h2><p><span>I received BS degree with Electrical Engineering and Automation (GPA: 3.7, 10%) from </span><a href='http://zdhxy.nwpu.edu.cn/English/English/Home.htm'><span>Northwestern Polytechnical University(NPU)</span></a><span> in People Republic of China(PRC) in June 2016 and the topic of thesis is &quot;Design of large scale Lithium-ion battery stack management system based on ARM&quot;. I received MS degree with Electrical Engineering (GPA: 3.7, 5%) from </span><a href='http://ee.xjtu.edu.cn/English_Version1/home.htm'><span>Xi&#39;an Jiaotong University(XJTU)</span></a><span> in PRC in June 2019 and the topic of thesis is &quot;Research on Electrical Breakdown Property of Polypropylene Nanocomposite Dielectric Modulated by Charge Transport and Molecular Displacement&quot;. At present, I&#39;m enrolled in Master of Science in Computer Science Degree provided by </span><a href='https://www.cc.gatech.edu/'><span>Georgia Institute of Technology (Gatech, USA)</span></a><span>.</span></p><p><span>During postgraduate&#39;s study,  I was in Prof. </span><a href='https://www.researchgate.net/profile/Shengtao_Li5'><span>Shengtao Li</span></a><span>&#39;s group and my  research focused on energy storage, charge transport modeling, numerical algorithm and calculation, data processing and machine learning. In past 3 years, I have a relatively good understanding of energy storage, nanocomposite fabrication, characterization and testing, charge/carrier transport modeling, numerical algorithm and calculation for nanocomposite dielectric. Different from extensive researches regarding how to enhance electrical strength via doping and composing, I chose to investigate the internal mechanism and explain why methods like doping or composing has impact on electrical breakdown behavior of dielectrics. Under my prof. </span><a href='https://www.researchgate.net/profile/Daomin_Min'><span>Daomin Min</span></a><span>&#39;s guidance, I gradually formulated ability to deal with scholar research and got a deeper insight towards my study. </span><strong><span>During this period, I was involved in 3 national projects and had 16 papers published</span></strong><span>.</span></p><h2><a name="highlights-of-research" class="md-header-anchor"></a><span>Highlights of research</span></h2><p><strong><span>Carrier Transport and Molecular Displacement Modulated (CTMD) model</span></strong></p><p><span>This model considers the charge injection, migration, trapping/detrapping and recombination dynamic process and depicts the continuous motion process of charges in the bulk of dielectrics.</span></p><p><img src="https://i.loli.net/2020/06/05/G1p9ghzKWNAemIj.png" alt="image-20200519225453984" style="zoom:80%;" /></p><center> Fig. Scheme of CTMD model and molecular chain displacement model</center><p><span>Charges are continuously injected from electrodes to the bulk of samples and they may be captured by traps (both shallow traps and deep ones). When captured by deep traps, which means charges need to obtain higher energy to detrap, charge keep retention for a longer period. Also, during the migration from one electrode to another one, combination may occur when a positive charge encounters a negative one. Such a dynamic process includes entire charge motion process.  By setting boundaries of model and solving Poisson&#39;s equation, This model is used for calculating the charge transport property in the bulk of insulating material, including numerical calculation of space charge and electrical field distribution, energy gained by electrons as well as electrical strength. This model was once used for explaining the electrical breakdown behavior of polypropylene (PP, used for film of power capacitor) nanocomposite. By combining the experimental results and calculation of model, hidden electrical breakdown mechanism of PP nanocomposite was revealed. Details regarding the model can be seen in </span><a href='#'><span>Carrier Transport and Molecular Displacement Modulated dc Electrical Breakdown of Polypropylene Nanocomposites</span></a><span>.</span></p><p><span>Based on this model, we investigate the electrical breakdown property of PI samples with various thicknesses. It is found that similar mechanism modulates the breakdown behavior of PI and simulations results are better fit than the space charge electrical breakdown (SCEB) model. Relating results and comparison can be found in </span><a href='#'><span>Thickness-Dependent DC Electrical Breakdown of Polyimide Modulated by Charge Transport and Molecular Displacement.</span></a></p><p><span>This model can further be applied to the charge transport in other systems, not limiting to insulation material system, since regularity of charge behavior exists in any system with external electrical field applied. Currently, in our research group, this model is also modified and utilized in field of ultra high thermal conductivity and carrier migration in solid battery. In the future, it is promising to combine this model of machine learning to determine more accurate probability of charge behavior so that it can more closely reveal the charge migratiojn property in the system, Also, the dimension of charge transport can be extended to 3D to show a tridimensional picture of its motion property.</span></p><p><strong><span>Dielectric property simulation of insulating material</span></strong></p><p><span>Method of modeling on dielectric property of aging Silicone Rubber is proposed. Specifically, by fitting the spectra to theoretical equations, we separated different polarization processes at various frequencies and calculated the values of corresponding parameters like thermal expansion coefficient, swelling ratio, etc.. By utilizing the correlations among various parameters, polarization property and specific process of SiR was delineated. Additionally, paper investigated the influence of degradation on the dielectric constant at high frequencies, ion concentration, conductivity and trap distribution, illustrating the charge transport property in the bulk of SiR and revealed the hidden cause for polarization. More information can be seen in </span><a href='#'><span>Dielectric and Carrier Transport Properties of Silicone Rubber Degraded by Gamma Irradiation</span></a></p><p><strong><span>Machine learning for grid load forecast</span></strong></p><p><span>In actual commercial marketing, suppressing illegal electric larceny especially in corporation with relatively higher demand for electric resources, so that the lost profits can be reclaimed and SGCC also has a greater power to better distribute the power transmission. In this project, I was responsible for forecast modeling and data processing, which provided the basis of prediction. Specifically, with the previous data of electric usage as the input, model was based on RNN and LSTM model to forecast the electric demand for following 7 days. By comparing with realistic values, it was proved that model had a relatively high precision and value of MAPE was around 2.4%. Corresponding results and data haven been collected to apply for a national project in SGCC.</span></p><p><span>For your information, more published papers can be found in:</span></p><ul><li><a href='#'><span>Electrical breakdown of polymer nanocomposites modulated by space charges</span></a></li><li><a href='#'><span>Study on short-term dc breakdown and corona resistance mechanism of polyimide</span></a></li><li><a href='#'><span>Trap and carrier transport of pristine and aged silicone rubber by surface potential measurements</span></a></li><li><a href='#'><span>Surface trap and carrier transport of aged and pristine oil-paper under harmonic voltage by surface potential decay</span></a></li><li><a href='#'><span>Polypropylene nanocomposite for power equipment: a review</span></a></li><li><a href='#'><span>Space-charge modulated electrical breakdown in polyethylene nanodielelctrics</span></a></li><li><a href='#'><span>Effect of deep traps and molecular motion on dc breakdown of polyethylene nanocomposites</span></a></li><li><a href='#'><span>Numerical simulation on dc breakdown of polyimide based on charge transport and molecular chain displacement</span></a></li><li><a href='#'><span>Space charge accumulation in silicone rubber influenced by Poole-Frenkel effect</span></a></li><li><a href='#'><span> Accumulation of space charges in epoxy resin nanodielectrics influenced by Poole-Frenkel effect</span></a></li><li><a href='#'><span>Dielectric properties of aged and pristine oil-paper under harmonic voltage by frequency domain spectroscopy</span></a></li></ul><h2><a name="scholarship-and-awards" class="md-header-anchor"></a><span>Scholarship and Awards </span></h2><h3><a name="scholarship" class="md-header-anchor"></a><span>Scholarship</span></h3><ol start='' ><li><span>National Scholarship</span><span>	</span><span>2018.11 &amp; 2017.11</span></li><li><span>First class scholarship    2018.11 &amp; 2017.11</span></li><li><span>Scholarship for excellent freshman    2016.09</span></li><li><span>Provincial special scholarship    2015.09</span></li><li><span>First class scholarship    2015.09 &amp; 2014.09 &amp; 2013.09</span></li><li><span>E+H special scholarship    2014.09</span></li></ol><h3><a name="awards" class="md-header-anchor"></a><span>Awards</span></h3><ol start='' ><li><span>Outstanding graduated student    2019.06</span></li><li><span>Merit master student award    2018.11 &amp; 2017.11</span></li><li><span>National Mathematical Contest in Modeling for Graduated students, Honorable mention    2017.11</span></li><li><span>Outstanding graduated student    2016.06</span></li><li><span>The 5th session of MathorCup Mathematical Contest in Modeling, Outstanding award    2015.06</span></li><li><span>College Students&#39; Innovative Entrepreneurial Training Plan Program, three projects in 2015 and 2014</span></li><li><span>International Mathematical Contest in Modeling (MCM), Honorable mention    2015.03</span></li><li><span>National Mathematical Contest in Modeling, Outstanding award    2014.11</span></li><li><span>Best debater in debate competition in China   2014.10</span></li><li><span>Excellent world teenager in Japan, Korea and China forum    2014.09</span></li><li><span>Merit student award    2015.11 &amp; 2014.11 &amp; 2013.11</span></li></ol><h2><a name="publications" class="md-header-anchor"></a><span>Publications </span></h2><p><img src="img/ResearchGate.jpg" height="30" width="35;" /><span> </span><a href='https://www.researchgate.net/profile/Chenyu_Yan4'><span>My Research Gate</span></a><span> </span></p><ol start='' ><li><span>Min DM, </span><u><strong><span>Yan CY</span></strong></u><span>, Huang Y, et.al. Dielectric and carrier transport properties of silicone rubber degraded by gamma irradiation[J]. Polymers, 2016, 9(10): 1-15 (SCI: 000414913800071; EI: 20174304306504)</span></li><li><span>Min DM, </span><u><strong><span>Yan CY</span></strong></u><span>, Mi R, et.al. Carrier Transport and Molecular Displacement Modulated dc Electrical Breakdown of Polypropylene Nanocomposites[J]. Polymers, 2018, 10(11): 1-20 (SCI: 000454456800029; EI: 20184606058526) </span></li><li><span>Min DM, Li YW, </span><u><strong><span>Yan CY</span></strong></u><span>, et.al. Thickness Dependent dc Electrical Breakdown of Polyimide Modulated by Charge Transport and Molecular Displacement[J], 2018, Polymers, 10(9): 1-18 (SCI: 000449988800081; EI: 20183805840118)</span></li><li><span>Min DM, </span><u><strong><span>Yan CY</span></strong></u><span>, Wang WW, et al. Electrical breakdown of polymer nanocomposites modulated by space charges[C]. IEEE 17th International Conference on Nanotechnology, 2017: 267-269 (EI: 20180604700270)</span></li><li><span>Xie DR, </span><u><strong><span>Yan CY</span></strong></u><span>, Huang Y, et al. Study on short-term dc breakdown and corona resistance mechanism of polyimide. Proceedings of 2017 International Symposium on Electrical Insulating Materials, 2017: 437-441 (EI: 20180704798615) </span></li><li><span>Kang WB, </span><strong><u><span>Yan CY</span></u></strong><span>, Li ST, et al. Trap and carrier transport of pristine and aged silicone rubber by surface potential measurements[C]. Proceedings of 2017 International Symposium on Electrical Insulating Materials, 2017: 207-210 (EI: 20180704798674)</span></li><li><span>Li SJ, Yan W, </span><u><strong><span>Yan CY</span></strong></u><span>, et al. Surface trap and carrier transport of aged and pristine oil-paper under harmonic voltage by surface potential decay[C]. IEEE Conference on Electrical Insulation and Dielectric Phenomenon, 2017:94-97 (EI: 20181505007629) </span></li><li><span>Cheng L, Chi XH, </span><u><strong><span>Yan CY</span></strong></u><span>, et al. Polypropylene nanocomposite for power equipment: a review[J]. IET Nanodielectrics, 2018, 1(2): 92-103 </span></li><li><span>Min DM, </span><u><strong><span>Yan CY</span></strong></u><span>, Huang Y, et.al. Influence of filler content on conductivity of epoxy resin nanocomposites[C]. The 20th International Symposium on High Voltage Engineering, 2017: 1-6</span></li><li><span>Min DM, </span><u><strong><span>Yan CY</span></strong></u><span>, Mi R, et al. Space-charge modulated electrical breakdown in polyethylene nanodielelctrics[J]. IEEE Nanotechnology Magazine, 12(2): 15-22.</span></li><li><span>Mi R, </span><u><strong><span>Yan CY</span></strong></u><span>, Wu QZ, Min DM, Li ST. Effect of deep traps and molecular motion on dc breakdown of polyethylene nanocomposites[C]. IEEE Conference on Electrical Insulation and Dielectric Phenomenon 2019 </span></li><li><span>Li YW, </span><u><strong><span>Yan CY</span></strong></u><span>, Min DM, Li ST. Numerical simulation on dc breakdown of polyimide based on charge transport and molecular chain displacement[C]. IEEE Conference on Electrical Insulation and Dielectric Phenomenon 2019</span></li><li><span>Kang WB, Meng SX, Cui HZ, Li YW, Mi R, </span><u><strong><span>Yan CY</span></strong></u><span>, Min DM, Li ST. Space charge accumulation in silicone rubber influenced by Poole-Frenkel effect[C]. International Conference on novel functional materials, 2018: 1-5 (EI: 20185306321507)</span></li><li><span>Cui HZ, Xing ZL, Wu QZ, </span><u><strong><span>Yan CY</span></strong></u><span>, Mi R, Min DM, and Li ST. Accumulation of space charges in epoxy resin nanodielectrics influenced by Poole-Frenkel effect, International Conference on novel functional materials 2019 </span></li><li><span>Kang WB, Meng SX, Cui HZ, </span><u><strong><span>Yan CY</span></strong></u><span>, Min DM, Li ST. Trap and dielectric property evolution of silicone rubber insulation under power frequency voltage superimposed harmonic [J]. High voltage (Chinese)    </span></li></ol><h2><a name="project-experience" class="md-header-anchor"></a><span>Project Experience</span></h2><ul><li><strong><span>Influence of molecular chain motion property in interfacial regions on dc breakdown property of polyethylene nanocomposites (National Natural Science Foundation of China) </span></strong><span> </span></li></ul><center><img src="img/NSFC.jpg" height="160" width="190;" div="" align="center"><center></center></center><p><span>This project was originated from the need for enhancing breakdown property of polyethylene to meet up with its demand for high voltage power transmission. Based on the motion property of molecular chains at the interfacial regions, this study investigated its impact on dc breakdown property of polyethylene nanocomposites and revealed the mechanism of nanocomposite breakdown. I&#39;m responsible for experiments progress and paper writing (academic paper and project report).</span></p><ul><li><strong><span>Insulating property and its regularity of dielectrics in current transfer and energy dissipation (National Key Basic Research Program (973) sub-project)</span></strong><span> </span></li></ul><center>  <img src="img/973.jpg" height="130" width="180;" div="" align="center">  </center><p><span>This project investigated the coupling impact of space charge accumulation, transient arc micro particle bombardment, metal particle deposition on the falshover property of fractrue insulating system in the process of dc arc switching, and revealed its influence regularity and failure mechanism. Based on nanocomposition modification tech, study figured out the the methods to suppress the space charge accumulation and metal particle deposition in the fracture insulating system and proposed approaches to resist flashover damage and aging. This research provided the theoretical and technology support for enhancing the voltage, current as well as lifespan of circuit breaker. I was mainly involved in the modeling of energy accumulation and flashover process, and investigated the influence of charge transport parameters and temperature on flashover behavior.</span></p><ul><li><strong><span>Charge transport property in silicone rubber under harmonic aging (Project of China Electric Power Research Institute)</span></strong><span> </span></li></ul><p><span>This project was originated from the need that power equipment like cable and bush are easier to be aged under the high-order harmonics, which hence deteriorated the performance of power system. The study, taking the silicon rubber from the outer coat of cable terminals and the insulating oil paper in the bush as the research objects, quantificationally manifested the aging status and summarized the insulating material deterioration regularity. In addition, aging model for cable and bush were proposed to predict their odd lifespans and the mechanism of aging have been demonstrated. I was responsible for experiment design, experiment accomplishment, modeling calculation and paper writing.</span></p><h2><a name="work-experience-and-internship" class="md-header-anchor"></a><span>Work Experience and Internship</span></h2><p><strong><span>State Grid Corporation of China   Department of Information and Internet</span><span>	</span><span>2019.09 - Now</span></strong><span> </span></p><center><img src="img/SGCC.jpg" height="150" width="240;" div="" align="center"></center><p><span>I worked in State Grid Corporation of China (SGCC), known as the largest corporation in China, for half a year. In this period, I worked as a member in Department of Information and Internet, which focuses on data collection and processing to propose practical suggestions for the development of corporation. I have been involved in a project to predict short-term load of grid power, including day load forecast and workload forecast. This work aimed at suppressing illegal electric larceny especially in corporation with relatively higher demand for electric resources, so that the lost profits can be reclaimed and SGCC also has a greater power to better distribute the power transmission. In this project, I was responsible for forecast modeling and data processing, which provided the basis of prediction. Specifically, with the previous data of electric usage as the input, model was based on RNN and LSTM model to forecast the electric demand for following 7 days. By comparing with realistic values, it was proved that model had a relatively high precision and value of MAPE was around 2.4%.</span></p><p><strong><span>Asea Brown Boveri Ltd., China      Electrical Engineer Internship        2016.05-2016.09</span></strong><span> </span></p><center><img src="img\ABB.png" height="120" width="200" div="" align="center" style="zoom:80%;"></center><p><span>I was a internship of technology department in ABB for four months. During this period, I have the initial understanding of industrialization of power system, especially the power capacitor. With an increase in familiarity with equipment, I have a more lucid concept for structure of power system and commercial market in this field. Plus, with the support of investigation in the equipment workshop, I learned the processing flow of capacitor, starting from the polypropylene film fabrication to the component assembly. In addition, I also got an opportunity to be engaged in the technical discussion with foreign experts, which largely bring inspiration to my further exploration on the research. Through intensive discussion, I found that increasing demand for high voltage transmission had been an urgent need for the grids in China, property of electric breakdown, however, was a key factor that determined the performance of power capacity. Therefore, when choosing the major field in my master phase, I forwardly approached to my professor and expressed my plan on the research of breakdown property of polypropylene. One more thing, it is worth being mentioned that I developed a program based on C++ during my internship to help collecting documents to meet the needs of engineers, which has been integrated to the system of ABB and used until now.</span></p><h2><a name="personal-statement" class="md-header-anchor"></a><span>Personal Statement</span></h2><p><span>During the learning and research in past few years, I had a deeper insight into the academic research and the desire to explore the unknown. Decision of applying for a Ph.D in the field relating to computer science and data science has been carefully considered and I do make much preparation for it. Not only equiped with good ability of programming, I&#39;m also studying in a master program on computer science to have a better insight towards this major and posses a more comprehensive understanding of how to efficiently utilize computing tools.Compared wiith other competitors, I believe I do have a good ability of learning and basis of computer science. Therefore, I am confident in completing the Ph.D program. </span></p><p><span>I have relatively good coding basis and experience. Mathematical model competition and previous numerical calculation research help to form a good sense of </span><strong><span>mathematical thinking, modeling and programming basis</span></strong><span>. Since the BS stage, I started to get familiar with coding via </span><strong><span>C++</span></strong><span>, which is also obligatory course. In the third year of my BS phase, I undertook a </span><strong><span>College Students&#39; Innovative Entrepreneurial Training Plan Program</span></strong><span> regarding the system for evaluation of faculty on campus. In that project, I developed the evaluation system based on C++. Compared with original system, new one can accurately determine the authenticity of takers&#39; answers and got a comprehensive evaluation of teachers. In this project, my coding ability has much progress for it is the first time that I have acquaintance with practical project. Afterwards, I came to realize that coding is a tiny piece of entire computer science and it is quite necessary to have a well-rounded understanding regarding the computer science. Then I came to learn </span><strong><span>Data Structures and Algorithm Analysis, Computer System a Programmer&#39;s perspective and Inside Microsoft SQL Server Query Tuning and Optimization</span></strong><span>, which taught me how computer processes my code and how to better and efficiently start a conversation between us. </span></p><p><span>When being involved in the study in master&#39;s period, a project required to collect vast data and give a prediction to the lifespan of electrical bush and oil paper, which means I have to be capable of  web crawler and machine learning. I came to learn Python and machine learning and I quickly, with no surprise, got familiar with </span><strong><span>Python</span></strong><span> programming due to familiarization of C++. Then I started to efficiently collect data via the web crawler and build forecasting model to quantitatively predict the lifespan of dielectric material, which turns to be in a good agreement with actual value. Afterwards, I started to learn </span><strong><span>Machine Learning</span></strong><span> (provided by Stanford University) and </span><strong><span>Data science</span></strong><span> (provided by IBM) to have a better understanding of technical trends and utilization. At present, I&#39;m enrolled in a master on </span><strong><span>science of computer science degree in Gatech</span></strong><span> to further make foundation for following study in Ph.D phase.</span></p><p><span>In addition to academic research and activity enrollment, I was also passionately involved in internship and practical work. I have intern/work experience in </span><strong><span>ABB</span></strong><span> and </span><strong><span>STATE GRID Corporation of China</span></strong><span>. After graduating from bachelor, I chose to do intern work in ABB for 4 months. During this period, I have an initial understanding of industrialization of power system, especially the power capacitor. With an increase in familiarity with equipment, I have a more lucid concept for structure of power system and commercial market in this field. Plus, with the support of investigation in the equipment workshop, I learned the processing flow of capacitor, starting from the polypropylene film fabrication to the component assembly. In addition, I also got an opportunity to be engaged in the technical discussion with foreign experts, which largely bring inspiration to my further exploration in this field. Through extensive discussion, I found that increasing demand for high voltage transmission had been an urgent need for the grids in China, property of electric breakdown, however, was a key factor that determined the performance of power capacity. Therefore, when choosing the major field in my master phase, I forwardly approached to my professor and expressed my plan on the research of breakdown property of polypropylene. Different from most researches, I attached more emphasis on the simulation and modeling calculation, which can reveal the interior mechanism and bring more novel ideas to this field. One more thing, it is worth being mentioned that I </span><strong><span>developed a program based on C++</span></strong><span> during my internship to help collecting documents to meet the needs of engineers, which was applied to be integrated to power production management system and used until now. After graduating from XJTU, I worked in State Grid Corporation of China (SGCC), known as the largest power corporation in China, for half a year. In this period, I worked as a member in Department of Information and Internet, which focuses on data collection and processing to propose practical suggestions for the development of corporation. I have been involved in a project of predicting short-term load of grid power, including day load and workload forecast. This work aimed at suppressing illegal electric larceny especially in corporation with relatively higher demand for electric resources, so that the lost profits can be reclaimed and SGCC also has a greater power to better distribute the power transmission. In this project, I was responsible for forecast modeling and data processing, which provided the basis of prediction. Specifically, with previous data of electric usage as the input, model was based on RNN and LSTM model and parameters were determined by data training to forecast the electric demand for following 7 days. </span></p><p><span>Project experience is very important for one’s combination of theoretical knowledge and practical skills. I have ever participated in three projects in BS phase, which were all originated from National innovation training program. Their research scale covers design of lithium battery system management system, design of signal transmission system with high performance, and campus faculty evaluation system development. These projects provided basic research experience to me. Specifically, it taught me have an initial concept of engineering practice and academic research. When it comes to MS phase, I have been involved in three projects, in which I was mainly focused on modeling and calculation to provide theoretical and simulation support to demonstrate the eperiment and reveal its internal mechanism.</span></p><p><span>I have an positive attitude towards scholar research and good ability to achieve goals, which are important quality for a Ph.D candidate. I intend to do research work in future (either industrial or academic), since I find it so interesting to solve out the puzzlement and propel the implementation of my research field, such a sense of achievement is hard to get via other ways. Furthermore, I have a relatively good knowledge accumulation of my research field, including experiment design, data processing and paper writing, which guarantees my promising yields on the way of achieving Ph.D. I can well cooperate with mates and professors. In my perspective, relationship between professor and students is not dedication and obey, but discussion and mutual inspiration.  Specifically, I need to regularly discuss my ideas on research with professor and seek for more novel ideas, however, I should have a lucid scheme for my work rather than relying on professor&#39;s order. Actually, I did well in past three years, like I always make full preparation prior to discussing with my professor on some key problems to enhance our communication efficiency and I also proposed my own ideas on some cardinal points. After discussion, I immediately conclude results and try to modify or consummate my research methods.</span></p><p><span>In addition, I am a good learner for new challenges and I like to combine theoretical analysis with practical application. It is inevitable that numerous unexpected problems can arouse during study and academic research, as far as I&#39;m concerned, I enjoy solving problems and obtained new skills. For instance, when I started to participate in MCM, I got familiar with new models every time when facing new questions. Also, it is my initial experience for numerical calculation, like Genetic Algorithm, greedy algorithm, Dynamic Programming, etc., and formal paper writing, like structure, format, details and demonstration skills, which really paves the way for my following research. I firmly believe that I can do more and better once I decide to make it.</span></p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p></div>
 </body>
 </html>
