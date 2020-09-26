@@ -24,7 +24,7 @@ Charges are continuously injected from electrodes to the bulk of samples and the
 
 Based on this model, we investigate the electrical breakdown property of PI samples with various thicknesses. It is found that similar mechanism modulates the breakdown behavior of PI and simulations results are better fit than the space charge electrical breakdown (SCEB) model. Relating results and comparison can be found in [Thickness-Dependent DC Electrical Breakdown of Polyimide Modulated by Charge Transport and Molecular Displacement.](#)
 
-This model can further be applied to the charge transport in other systems, not limiting to insulation material system, since regularity of charge behavior exists in any system with external electrical field applied. Currently, in our research group, this model is also modified and utilized in field of ultra high thermal conductivity and carrier migration in solid battery. In the future, it is promising to combine this model of machine learning to determine more accurate probability of charge behavior so that it can more closely reveal the charge migratiojn property in the system, Also, the dimension of charge transport can be extended to 3D to show a tridimensional picture of its motion property.
+This model can further be applied to the charge transport in other systems, not limiting to insulation material system, since regularity of charge behavior exists in any system with external electrical field applied. Currently, in our research group, this model is also modified and utilized in field of ultra high thermal conductivity and carrier migration in solid battery. In the future, it is promising to combine this model of machine learning to determine more accurate probability of charge behavior so that it can more closely reveal the charge migration property in the system, Also, the dimension of charge transport can be extended to 3D to show a tridimensional picture of its motion property.
 
 **Dielectric property simulation of insulating material**
 
@@ -92,6 +92,8 @@ For your information, more published papers can be found in:
 13. Kang WB, Meng SX, Cui HZ, Li YW, Mi R, <u>**Yan CY**</u>, Min DM, Li ST. Space charge accumulation in silicone rubber influenced by Poole-Frenkel effect[C]. International Conference on novel functional materials, 2018: 1-5 (EI: 20185306321507)
 14. Cui HZ, Xing ZL, Wu QZ, <u>**Yan CY**</u>, Mi R, Min DM, and Li ST. Accumulation of space charges in epoxy resin nanodielectrics influenced by Poole-Frenkel effect, International Conference on novel functional materials 2019 
 15. Kang WB, Meng SX, Cui HZ, <u>**Yan CY**</u>, Min DM, Li ST. Trap and dielectric property evolution of silicone rubber insulation under power frequency voltage superimposed harmonic [J]. High voltage (Chinese)    
+
+- **Min DM is my professor during graduated study and gave lots of assistance to my research, in all these work, I was responsible for experiment design, operation, analysis and paper writing.**
 
 
 ## Project Experience ##
