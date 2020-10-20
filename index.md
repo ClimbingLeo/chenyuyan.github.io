@@ -2,15 +2,25 @@
 
 MS, Xi'an Jiaotong University, PRC
 
-<img src="img/mail.png" height="25" width="30;" /> <leo-chenyu.yan@stu.xjtu.edu.cn> 
+MS, Computer Science, Georgia Institute of Technology, USA
+
+<img src="img/mail.png" height="25" width="30;" /> <leo-cheyu@foxmail.com> 
 
 ## Education Background
 
 I received BS degree with Electrical Engineering and Automation (GPA: 3.7, 10%) from [Northwestern Polytechnical University(NPU)](http://zdhxy.nwpu.edu.cn/English/English/Home.htm) in People Republic of China(PRC) in June 2016 and the topic of thesis is "Design of large scale Lithium-ion battery stack management system based on ARM". I received MS degree with Electrical Engineering (GPA: 3.7, 5%) from [Xi'an Jiaotong University(XJTU)](http://ee.xjtu.edu.cn/English_Version1/home.htm) in PRC in June 2019 and the topic of thesis is "Research on Electrical Breakdown Property of Polypropylene Nanocomposite Dielectric Modulated by Charge Transport and Molecular Displacement". At present, I'm enrolled in Master of Science in Computer Science Degree provided by [Georgia Institute of Technology (Gatech, USA)](https://www.cc.gatech.edu/).
 
-During postgraduate's study,  I was in Prof. [Shengtao Li](https://www.researchgate.net/profile/Shengtao_Li5)'s group and my  research focused on energy storage, charge transport modeling, numerical algorithm and calculation, data processing and machine learning. In past 3 years, I have a relatively good understanding of energy storage, nanocomposite fabrication, characterization and testing, charge/carrier transport modeling, numerical algorithm and calculation for nanocomposite dielectric. Different from extensive researches regarding how to enhance electrical strength via doping and composing, I chose to investigate the internal mechanism and explain why methods like doping or composing has impact on electrical breakdown behavior of dielectrics. Under my prof. [Daomin Min](https://www.researchgate.net/profile/Daomin_Min)'s guidance, I gradually formulated ability to deal with scholar research and got a deeper insight towards my study. **During this period, I was involved in 3 national projects and had 16 papers published**.
+During postgraduate's study,  I was in Prof. [Shengtao Li](https://www.researchgate.net/profile/Shengtao_Li5)'s group and my  research focused on energy storage, charge transport modeling, numerical algorithm and calculation, data processing and machine learning. In past 3 years, I have a relatively good understanding of energy storage, nanocomposite fabrication, characterization and testing, charge/carrier transport modeling, numerical algorithm and calculation for nanocomposite dielectric. Different from extensive researches regarding how to enhance electrical strength via doping and composing, I chose to investigate the internal mechanism and explain why methods like doping or composing has impact on electrical breakdown behavior of dielectrics. Under my prof. [Daomin Min](https://www.researchgate.net/profile/Daomin_Min)'s guidance, I gradually formulated ability to deal with scholar research and got a deeper insight towards my study. **During this period, I was involved in 3 national projects and had 16 papers published**. I have a good coding basis and proficient in Python, TensorFlow, C++ and some data analysis program including MATLAB, SPSS.
 
 ##  Highlights of research
+
+**Machine learning for grid load forecast**
+
+In actual commercial marketing, suppressing illegal electric larceny especially in corporation with relatively higher demand for electric resources, so that the lost profits can be reclaimed and State Grid Corporation of China (SGCC), the largest national power grid corporation in China, also has a greater power to better distribute the power transmission. In this project, I was responsible for forecast modeling and data processing, which provided the basis of prediction. Specifically, with the previous data of electric usage as the input, model was based on RNN and LSTM model to forecast the electric demand for following 7 days. By comparing with realistic values, it was proved that model had a relatively high precision and value of MAPE was around 2.4%. Corresponding results and data haven been collected to apply for a national project in SGCC.
+
+**Central big data platform and smart grid**
+
+we built a central platform, collaborating with Alibaba, to collect all data from power grid system to help making decision regarding equipment maintenance, power distribution and redistribution, dispatching and monitoring. For example, a serious problem of vehicle charging is occupation of space, which means some customers complete charging with vehicles immobile, aggravating the limited usage originated from insufficient charging piles. In this regard, we optimize the power supply of electricity power and get customer notified when the charging if finished to make full use of charging piles and guarantee most customers can utilize devices. Another scenario is maintenance of power equipment, by monitoring dynamic change of transformer oil temperature, dielectric loss and capacity of capacitors and other indexes to keep a systematic observation of power equipment, meanwhile forecasting the performance of equipment in a long run and arrange routine maintenance plan, increasing efficiency and effectiveness of electrical test and repairing.
 
 **Carrier Transport and Molecular Displacement Modulated (CTMD) model**
 
@@ -29,14 +39,6 @@ This model can further be applied to the charge transport in other systems, not 
 **Dielectric property simulation of insulating material**
 
 Method of modeling on dielectric property of aging Silicone Rubber is proposed. Specifically, by fitting the spectra to theoretical equations, we separated different polarization processes at various frequencies and calculated the values of corresponding parameters like thermal expansion coefficient, swelling ratio, etc.. By utilizing the correlations among various parameters, polarization property and specific process of SiR was delineated. Additionally, paper investigated the influence of degradation on the dielectric constant at high frequencies, ion concentration, conductivity and trap distribution, illustrating the charge transport property in the bulk of SiR and revealed the hidden cause for polarization. More information can be seen in [Dielectric and Carrier Transport Properties of Silicone Rubber Degraded by Gamma Irradiation](#)
-
-**Machine learning for grid load forecast**
-
-In actual commercial marketing, suppressing illegal electric larceny especially in corporation with relatively higher demand for electric resources, so that the lost profits can be reclaimed and State Grid Corporation of China (SGCC), the largest national power grid corporation in China, also has a greater power to better distribute the power transmission. In this project, I was responsible for forecast modeling and data processing, which provided the basis of prediction. Specifically, with the previous data of electric usage as the input, model was based on RNN and LSTM model to forecast the electric demand for following 7 days. By comparing with realistic values, it was proved that model had a relatively high precision and value of MAPE was around 2.4%. Corresponding results and data haven been collected to apply for a national project in SGCC.
-
-**Central big data platform and smart grid**
-
-we built a central platform, collaborating with Alibaba, to collect all data from power grid system to help making decision regarding equipment maintenance, power distribution and redistribution, dispatching and monitoring. For example, a serious problem of vehicle charging is occupation of space, which means some customers complete charging with vehicles immobile, aggravating the limited usage originated from insufficient charging piles. In this regard, we optimize the power supply of electricity power and get customer notified when the charging if finished to make full use of charging piles and guarantee most customers can utilize devices. Another scenario is maintenance of power equipment, by monitoring dynamic change of transformer oil temperature, dielectric loss and capacity of capacitors and other indexes to keep a systematic observation of power equipment, meanwhile forecasting the performance of equipment in a long run and arrange routine maintenance plan, increasing efficiency and effectiveness of electrical test and repairing.
 
 For your information, more published papers can be found in:
 
@@ -99,25 +101,6 @@ For your information, more published papers can be found in:
 
 - **Min DM is my professor during graduated study and gave lots of assistance to my research, in all these work, I was responsible for experiment design, operation, analysis and paper writing.**
 
-
-## Project Experience ##
-
-- **Influence of molecular chain motion property in interfacial regions on dc breakdown property of polyethylene nanocomposites (National Natural Science Foundation of China) ** 
-
-<center><img src="img/NSFC.jpg" height="160" width="190;" div align = "center"/><center>
-
-This project was originated from the need for enhancing breakdown property of polyethylene to meet up with its demand for high voltage power transmission. Based on the motion property of molecular chains at the interfacial regions, this study investigated its impact on dc breakdown property of polyethylene nanocomposites and revealed the mechanism of nanocomposite breakdown. I'm responsible for experiments progress and paper writing (academic paper and project report).
-
-- **Insulating property and its regularity of dielectrics in current transfer and energy dissipation (National Key Basic Research Program (973) sub-project)** 
-
-<center>  <img src="img/973.jpg" height="130" width="180;" div align = "center"/>  </center>
-
-This project investigated the coupling impact of space charge accumulation, transient arc micro particle bombardment, metal particle deposition on the falshover property of fractrue insulating system in the process of dc arc switching, and revealed its influence regularity and failure mechanism. Based on nanocomposition modification tech, study figured out the the methods to suppress the space charge accumulation and metal particle deposition in the fracture insulating system and proposed approaches to resist flashover damage and aging. This research provided the theoretical and technology support for enhancing the voltage, current as well as lifespan of circuit breaker. I was mainly involved in the modeling of energy accumulation and flashover process, and investigated the influence of charge transport parameters and temperature on flashover behavior.
-
-- **Charge transport property in silicone rubber under harmonic aging (Project of China Electric Power Research Institute)** 
-
-This project was originated from the need that power equipment like cable and bush are easier to be aged under the high-order harmonics, which hence deteriorated the performance of power system. The study, taking the silicon rubber from the outer coat of cable terminals and the insulating oil paper in the bush as the research objects, quantificationally manifested the aging status and summarized the insulating material deterioration regularity. In addition, aging model for cable and bush were proposed to predict their odd lifespans and the mechanism of aging have been demonstrated. I was responsible for experiment design, experiment accomplishment, modeling calculation and paper writing.
-
 ## Work Experience and Internship ## 
 
 **State Grid Corporation of China   Department of Information and Internet	2019.09 - Now** 
@@ -149,6 +132,25 @@ Project experience is very important for one’s combination of theoretical know
 I have an positive attitude towards scholar research and good ability to achieve goals, which are important quality for a Ph.D candidate. I intend to do research work in future (either industrial or academic), since I find it so interesting to solve out the puzzlement and propel the implementation of my research field, such a sense of achievement is hard to get via other ways. Furthermore, I have a relatively good knowledge accumulation of my research field, including experiment design, data processing and paper writing, which guarantees my promising yields on the way of achieving Ph.D. I can well cooperate with mates and professors. In my perspective, relationship between professor and students is not dedication and obey, but discussion and mutual inspiration.  Specifically, I need to regularly discuss my ideas on research with professor and seek for more novel ideas, however, I should have a lucid scheme for my work rather than relying on professor's order. Actually, I did well in past three years, like I always make full preparation prior to discussing with my professor on some key problems to enhance our communication efficiency and I also proposed my own ideas on some cardinal points. After discussion, I immediately conclude results and try to modify or consummate my research methods.
 
 In addition, I am a good learner for new challenges and I like to combine theoretical analysis with practical application. It is inevitable that numerous unexpected problems can arouse during study and academic research, as far as I'm concerned, I enjoy solving problems and obtained new skills. For instance, when I started to participate in MCM, I got familiar with new models every time when facing new questions. Also, it is my initial experience for numerical calculation, like Genetic Algorithm, greedy algorithm, Dynamic Programming, etc., and formal paper writing, like structure, format, details and demonstration skills, which really paves the way for my following research. I firmly believe that I can do more and better once I decide to make it.
+
+## Project Experience ##
+
+- **Influence of molecular chain motion property in interfacial regions on dc breakdown property of polyethylene nanocomposites (National Natural Science Foundation of China) ** 
+
+<center><img src="img/NSFC.jpg" height="160" width="190;" div align = "center"/><center>
+
+
+This project was originated from the need for enhancing breakdown property of polyethylene to meet up with its demand for high voltage power transmission. Based on the motion property of molecular chains at the interfacial regions, this study investigated its impact on dc breakdown property of polyethylene nanocomposites and revealed the mechanism of nanocomposite breakdown. I'm responsible for experiments progress and paper writing (academic paper and project report).
+
+- **Insulating property and its regularity of dielectrics in current transfer and energy dissipation (National Key Basic Research Program (973) sub-project)** 
+
+<center>  <img src="img/973.jpg" height="130" width="180;" div align = "center"/>  </center>
+
+This project investigated the coupling impact of space charge accumulation, transient arc micro particle bombardment, metal particle deposition on the falshover property of fractrue insulating system in the process of dc arc switching, and revealed its influence regularity and failure mechanism. Based on nanocomposition modification tech, study figured out the the methods to suppress the space charge accumulation and metal particle deposition in the fracture insulating system and proposed approaches to resist flashover damage and aging. This research provided the theoretical and technology support for enhancing the voltage, current as well as lifespan of circuit breaker. I was mainly involved in the modeling of energy accumulation and flashover process, and investigated the influence of charge transport parameters and temperature on flashover behavior.
+
+- **Charge transport property in silicone rubber under harmonic aging (Project of China Electric Power Research Institute)** 
+
+This project was originated from the need that power equipment like cable and bush are easier to be aged under the high-order harmonics, which hence deteriorated the performance of power system. The study, taking the silicon rubber from the outer coat of cable terminals and the insulating oil paper in the bush as the research objects, quantificationally manifested the aging status and summarized the insulating material deterioration regularity. In addition, aging model for cable and bush were proposed to predict their odd lifespans and the mechanism of aging have been demonstrated. I was responsible for experiment design, experiment accomplishment, modeling calculation and paper writing.
 
 
 
