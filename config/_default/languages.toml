@@ -5,37 +5,4 @@
 # Configure the English version of the site.
 [en]
   languageCode = "en-us"
-   contentDir = "content/en"  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-
-# Uncomment the lines below to configure your website in a second language.
-[zh]
-  languageCode = "zh-Hans"
-  contentDir = "content/zh"
-  title = "孙浩天个人主页"
-  [zh.params]
-    description = "个人网页中文版"
-  [[zh.menu.main]]
-    name = "个人经历"
-    url = "#about"
-    weight = 10
-
-  [[zh.menu.main]]
-    name = "已发表成果"
-    url = "#publications"
-    weight = 20
-
-  [[zh.menu.main]]
-    name = "科研项目"
-    url = "#projects"
-    weight = 30
-
-  [[zh.menu.main]]
-    name = "专业技能"
-    url = "#skills"
-    weight = 40
-
-  [[zh.menu.main]]
-    name = "已完成慕课"
-    url = "#accomplishments"
-    weight = 50
 
