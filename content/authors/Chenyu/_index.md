@@ -1,16 +1,16 @@
 ---
 # Display name
-title: Haotian SUN
+title: Chenyu Yan
 
 # Username (this should match the folder name)
 authors:
-- Haotian
+- Chenyu
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: Postgraduate Student of Electrical Engineering
+role: Graduate Student of Electrical Engineering
 
 # Organizations/Affiliations
 organizations:
@@ -18,7 +18,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include precise fault location, power quality indices(especially voltage sags/dips events) monitoring and analyzing with optimization algorithms and deep learning techniques.
+bio: My research interests include functional material, nanocomposite, microscopic modeling in nanoscale, power transmission, electrochemistry, energy storage/conservation, and computational calculation.
 
 interests:
 - Power Quanlity Online Monitoring
@@ -30,7 +30,7 @@ education:
   courses:
   - course: Master's Degree in Electrical Engineering
     institution: Xi'an Jiaotong University, China
-    year: 2017-2020
+    year: 2016-2019
   - course: Engineer's Degree in Electrical Engineering (Double-degree Program)
     institution: CentraleSupélec, France
     year: 2015-2017
@@ -41,16 +41,16 @@ education:
 social:
 - icon: cv
   icon_pack: ai
-  link: files/cv.pdf
+  link: files/CV_Chenyu.pdf
 - icon: envelope
   icon_pack: fas
-  link: mailto:sun.haotian@outlook.com
+  link: mailto:leo-chenyu@foxmail.com
 - icon: orcid
   icon_pack: ai
   link: https://orcid.org/0000-0001-9013-7016
 - icon: google-scholar
   icon_pack: ai
-  link: https://google.com
+  link: https://scholar.google.com/citations?user=281EWzQAAAAJ&hl=en&oi=ao
 
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
