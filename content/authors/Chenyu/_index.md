@@ -9,21 +9,18 @@ authors:
 # Is this the primary user of the site?
 superuser: true
 
-# Role/position
-role: Graduate Student of Electrical Engineering
-
 # Organizations/Affiliations
 organizations:
 - name: Xi'an Jiaotong University
   url: "http://en.xjtu.edu.cn"
 - name: STATE GRID Corporation in China
-  Url: "http://www.sgcc.com.cn/ywlm/index.shtml"
+  url: "http://www.sgcc.com.cn/ywlm/index.shtml"
 # Short bio (displayed in user profile at end of posts)
 bio: I am Chenyu Yan from Xi'an Jiaotong University. 
 
 interests:
-- Functional/Nano material
-- Microscopic Modeling (electron transport, )
+- Functional/Nano Material
+- Microscopic Modeling (electron transport, Energy transfer)
 - Electrochemistry
 - Power Transmission
 - Machine Learning Applied for Grid Load Forecast
@@ -31,10 +28,13 @@ interests:
 education:
   
   courses:
+  - course: Data Scientist
+    institution: STATE GRID Corporation in China, PRC
+    year: 2019-present
   - course: Master's Degree in Electrical Engineering
     institution: Xi'an Jiaotong University, China
     year: 2016-2019
-  - course: Bachelor's Degree in Electrical Engineering and Automation
+  - course: Bachelor's Degree in Electrical Engineering
     institution: Northwestern Polytechnical University, China
     year: 2012-2016
 

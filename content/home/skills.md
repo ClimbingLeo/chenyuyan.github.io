@@ -18,18 +18,18 @@ subtitle = ""
   icon = "desktop"
   icon_pack = "fas"
   name = "Research Tools"
-  description = "Matlab, Simulink, Plecs, PSCAD, RT BOX, dSpace"
-  
+  description = "Matlab, SPSS, 3D MAX, R“
+
 [[feature]]
   icon = "code"
   icon_pack = "fas"
   name = "Programming"
-  description = "Python, C, C#, C++, Java, HTML"
+  description = "Python, C, C++, SQL, Java, HTML"
 
 [[feature]]
   icon = "chart-line"
   icon_pack = "fas"
-  name = "Deep Learning and Data Science"
+  name = "Machine Learning and Data Science"
   description = "Pytorch, Tensorflow, Scikit-Learn, Pandas, NumPy, Matplotlib"
 
 [[feature]]
@@ -41,14 +41,14 @@ subtitle = ""
 [[feature]]
   icon = "tools"
   icon_pack = "fas"
-  name = "Developping Tools"
-  description = "Git, VS Code, XCode, Jupyter Notebook"
+  name = "Developing Tools"
+  description = "Git, VS Code, X-Code"
 
 [[feature]]
   icon = "globe"
   icon_pack = "fas"
-  name = "Languages"
-  description = "Chinese, English, French"
+  name = "Volunteer work"
+  description = "Partner of MUN conference in China"
 
 # Uncomment to use emoji icons.
 # [[feature]]
