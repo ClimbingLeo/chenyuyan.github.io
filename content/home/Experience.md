@@ -23,8 +23,8 @@ date_format = "Jan 2006"
   company_url = "https://www.sgcc.org/"
   location = "Suzhou, PRC"
   date_start = "2019-08-31"
-  date_end = ""
-  description = \>-
+  date_end = "2020-12-15"
+  description = """
   Responsibilities include:
 
   * Data Science and Engineering
