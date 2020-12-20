@@ -2,7 +2,10 @@
 title: Machine learning for the power grid load forecast
 summary: This projects is funded by the SGCC and it focuses on the power grid load forecast based on machine learning and deep learning, offering assistance for the decision making.
 tags:
-- VS
+- Machine Learning
+- Deep Learning
+- Power Transmission
+- Data Processing
 date: "2020-12-10T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
