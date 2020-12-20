@@ -41,6 +41,14 @@ subtitle = ""
      name = "Lithium battery"
      tag = "Lithium battery"
 
+   [[content.filter_button]]
+     name = "Insulating Material"
+     tag = "Insulation"
+
+   [[content.filter_button]]
+     name = "Microscopic Modeling"
+     tag = "Microscopic Modeling"
+
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
