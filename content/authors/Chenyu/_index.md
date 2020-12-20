@@ -13,7 +13,7 @@ superuser: true
 organizations:
 - name: Xi'an Jiaotong University
   url: "http://en.xjtu.edu.cn"
-- name: STATE GRID Corporation in China
+- name: STATE GRID Corporation of China
   url: "http://www.sgcc.com.cn/ywlm/index.shtml"
 # Short bio (displayed in user profile at end of posts)
 bio: I am Chenyu Yan from Xi'an Jiaotong University. 
