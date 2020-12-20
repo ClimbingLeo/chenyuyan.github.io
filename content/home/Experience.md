@@ -30,7 +30,7 @@ date_format = "Jan 2006"
   * Data Science and Engineering
   * Power Transmission Research
   * Machine Learning & Deep Learning
-
+		"""
 [[experience]]
   title = "Vice President"
   company = "WELAND International Education & Consulting Company"
@@ -40,11 +40,11 @@ date_format = "Jan 2006"
   date_end = "2019-06-01"
   description = """
   Responsibilities include:
-
+  
   * Marketing and Communication
   * Academic Training
   * Organize Model UN conferences
-
+		"""
 [[experience]]
   title = "Graduate Student"
   company = "Xi'an Jiaotong University"
@@ -58,7 +58,7 @@ date_format = "Jan 2006"
   * Power Transmission
   * Functional/Nano Material
   * Microscopic Modeling
-
+		"""
 [[experience]]
   title = "Undergraduate Student"
   company = "Northwestern Polytechnical University"
@@ -72,5 +72,5 @@ date_format = "Jan 2006"
   * Lithium Battery
   * Control Theory
   * Industrial Optimization
-
+		"""
 +++
