@@ -15,10 +15,15 @@ subtitle = ""
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
 
 [[feature]] icon = "desktop" icon_pack = "fas" name = "Research Tools" description = "Matlab, SPSS, 3D MAX, R"
+
 [[feature]] icon = "code" icon_pack = "fas" name = "Programming" description = "Python, C, C++, SQL, Java, HTML"
+
 [[feature]] icon = "chart-line" icon_pack = "fas" name = "Machine Learning and Data Science" description = "Pytorch, Tensorflow, Scikit-Learn, Pandas, NumPy, Matplotlib"
+
 [[feature]] icon = "object-group" icon_pack = "fas" name = "Editing and Designing" description = "Latex, Microsoft Office, Sketch, Final Cut Pro"
+
 [[feature]] icon = "tools" icon_pack = "fas" name = "Developing Tools" description = "Git, VS Code, X-Code"
+
 [[feature]] icon = "globe" icon_pack = "fas" name = "Volunteer Work" description = "Partner of MUN conference in China"
 
 # Uncomment to use emoji icons.
