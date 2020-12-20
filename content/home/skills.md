@@ -36,7 +36,7 @@ subtitle = ""
   icon = "object-group"
   icon_pack = "fas"
   name = "Editing and Designing"
-  description = "Latex, Microsoft Office, Omnigraffle, Sketch, Final Cut Pro"
+  description = "Latex, Microsoft Office, Sketch, Final Cut Pro"
 
 [[feature]]
   icon = "tools"
@@ -47,7 +47,7 @@ subtitle = ""
 [[feature]]
   icon = "globe"
   icon_pack = "fas"
-  name = "Volunteer work"
+  name = "Volunteer Work"
   description = "Partner of MUN conference in China"
 
 # Uncomment to use emoji icons.
