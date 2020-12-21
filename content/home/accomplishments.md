@@ -148,5 +148,46 @@ date_format = "Jan 2006"
  date_start = "2015-09-23"
  date_end = ""
  description = ""  
-
+[[item]]
+ organization = "Northwestern Polytechnical University"
+ title = "Excellent Undergraduate Student"
+ date_start = "2015-09-23"
+ date_end = ""
+ description = ""  
+    
+[[item]]
+ organization = "Northwestern Polytechnical University"
+ title = "First-class Scholarship"
+ date_start = "2014-09-23"
+ date_end = ""
+ description = ""  
+      
+[[item]]
+ organization = "United Nations Association of China"
+ title = "Japan, Korea and China Forum"
+ date_start = "2014-10-23"
+ date_end = ""
+ description = " Excellent World Teenager"  
+      
+[[item]]
+ organization = "Northwestern Polytechnical University"
+ title = "Excellent Undergraduate Student"
+ date_start = "2014-09-23"
+ date_end = ""
+ description = ""  
+        
+[[item]]
+ organization = "Northwestern Polytechnical University"
+ title = "First-class Scholarship"
+ date_start = "2014-09-23"
+ date_end = ""
+ description = ""  
+        
+[[item]]
+ organization = "Northwestern Polytechnical University"
+ title = "Excellent Undergraduate Student"
+ date_start = "2014-09-23"
+ date_end = ""
+ description = ""  
+ 
 +++
