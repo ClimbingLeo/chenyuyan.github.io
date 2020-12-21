@@ -5,7 +5,7 @@ headless = false  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 50  # Order that this section will appear.
 
-title = "Accomplish&shy;ments"
+title = "Fellowship, Honor and Award"
 subtitle = "on MOOCs"
 
 # Date format
@@ -19,12 +19,26 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
+  organization = "Xi'an Jiaotong University"
+  title = "Outstanding Graduate Student"
+  date_start = "2019-06-23"
+  date_end = ""
+  description = ""
+  
+[[item]]
+  organization = "Ministry of Education of the People's Republic of China"
+  title = "Neural Networks and Deep Learning"
+  date_start = "2019-05-03"
+  date_end = ""
+  description = ""
+
+[[item]]
   organization = "Coursera"
   organization_url = "https://www.coursera.org"
   title = "Deep Learning Specialization"
   url = ""
-  certificate_url = "https://coursera.org/share/51b2f1cc72b5a1e442861786caff0095"
-  date_start = "2019-05-10"
+  # certificate_url = "https://coursera.org/share/51b2f1cc72b5a1e442861786caff0095"
+  date_start = "2019-04-10"
   date_end = ""
   description = "The Deep Learning Specialization is designed to prepare learners to participate in the development of cutting-edge AI technology, and to understand the capability, the challenges, and the consequences of the rise of deep learning. Through five interconnected courses, learners develop a profound knowledge of the hottest AI algorithms, mastering deep learning from its foundations (neural networks) to its industry applications (Computer Vision, Natural Language Processing, Speech Recognition, etc.)."
 
