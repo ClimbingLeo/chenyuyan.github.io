@@ -1,6 +1,6 @@
 ---
 title: "Trap and Carrier Transport of Pristine and Aged Silicone Rubber by Surface Potential Measurement"
-date: 
+date: 2017-07-01
 publishDate: 2020-01-14T06:52:54.588536Z
 authors: ["Wenbin Kang", "Chenyu", "Shijun Li", "Yin Huang", "Daomin Min", "Shengtao Li"]
 publication_types: ["1"]

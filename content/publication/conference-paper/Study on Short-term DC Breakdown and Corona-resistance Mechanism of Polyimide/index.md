@@ -1,6 +1,6 @@
 ---
 title: "Study on Short-term DC Breakdown and Corona-resistance Mechanism of Polyimide"
-date: 
+date: 2017-10-01
 publishDate: 2020-01-14T06:52:54.588536Z
 authors: ["Dongri Xie", "Chenyu", "Yin Huang", "Daomin Min", "Shengtao Li"]
 publication_types: ["1"]

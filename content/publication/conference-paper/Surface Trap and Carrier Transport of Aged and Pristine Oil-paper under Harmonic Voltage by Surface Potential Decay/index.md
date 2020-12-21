@@ -1,6 +1,6 @@
 ---
 title: "Surface Trap and Carrier Transport of Aged and Pristine Oil-Paper Under Harmonic Voltage by Surface Potential Decay"
-date: 
+date: 2017-07-01
 publishDate: 2020-01-14T06:52:54.588536Z
 authors: ["Shijun Li", "Wei Yan", "Chenyu", "Daomin Min", "Shengtao Li", "Wenbin Kang"]
 publication_types: ["1"]

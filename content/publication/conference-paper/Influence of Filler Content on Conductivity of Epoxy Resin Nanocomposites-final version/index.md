@@ -1,6 +1,6 @@
 ---
 title: "Influence of Filler Content on Conductivity of Epoxy Resin Nanocomposites"
-date: 
+date: 2017-09-01
 publishDate: 2020-01-14T06:52:54.588536Z
 authors: ["Daomin Min", "Chenyu", "Yin Huang", "Dongri Xie", "Wenfeng Liu", "Shengtao Li"]
 publication_types: ["1"]
