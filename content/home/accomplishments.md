@@ -18,12 +18,25 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
- organization = "Ministry of Education of the People's Republic of China"
- title = "National Scholarship"
- date_start = "2018-11-11"
- date_end = ""
- description = "" 
+  organization = "Ministry of Education of the People's Republic of China"
+  title = "National Scholarship"
+  date_start = "2018-11-11"
+  date_end = ""
+  description = "" 
 
+[[item]]
+  organization = "State Key Laboratory of Electrical Insulation and Power Equipment"
+  title = "National Special Scholarship"
+  date_start = "2018-11-11"
+  date_end = ""
+  description = "" 
+
+[[item]]
+  organization = "Ministry of Education of the People's Republic of China"
+  title = "National Scholarship"
+  date_start = "2017-11-03"
+  date_end = ""
+  description = "" 
 
 
 +++
