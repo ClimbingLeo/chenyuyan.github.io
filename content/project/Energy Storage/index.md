@@ -1,6 +1,6 @@
 ---
-title: Research on the Analysis and Mitigation of Voltage Sag Events
-summary: In the basis of the previous project concerning the voltage sag moinitoring, we made several improvements in the relating location and identification techniques.
+title: Research on the energy density promotion of the power capacitor
+summary: High energy density issue is essential for both electrical transportation and the power transmission. This project primarily focuses on the energy density promotion of the power capacitor to better adapt to the need of high voltage direct transmission.
 tags:
 - Energy Storage
 - Battery
