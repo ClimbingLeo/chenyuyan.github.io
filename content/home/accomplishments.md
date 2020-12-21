@@ -164,7 +164,7 @@ date_format = "Jan 2006"
  description = ""  
       
 
-      
+
 [[item]]
  organization = "Northwestern Polytechnical University"
  title = "Excellent Undergraduate Student"
@@ -175,15 +175,15 @@ date_format = "Jan 2006"
 [[item]]
  organization = "Northwestern Polytechnical University"
  title = "First-class Scholarship"
- date_start = "2014-09-23"
+ date_start = "2013-09-23"
  date_end = ""
  description = ""  
         
 [[item]]
  organization = "Northwestern Polytechnical University"
  title = "Excellent Undergraduate Student"
- date_start = "2014-09-23"
+ date_start = "2013-09-23"
  date_end = ""
  description = ""  
- 
+
 +++

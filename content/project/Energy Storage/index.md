@@ -3,7 +3,6 @@ title: Research on the energy density promotion of the power capacitor
 summary: High energy density issue is essential for both electrical transportation and the power transmission. This project primarily focuses on the energy density promotion of the power capacitor to better adapt to the need of high voltage direct transmission.
 tags:
 - Energy Storage
-- Battery
 - Electrochemistry
 - Nano Material
 - Functional Material

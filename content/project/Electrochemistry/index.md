@@ -2,7 +2,9 @@
 title: Research on the lithium battery management system
 summary: This projects is funded by College Students' Innovative Entrepreneurial Training Plan Program. It focuses on the design of the communication sensor of the battery system and electrode material.
 tags:
-- 
+- Energy Storage
+- Lithium Battery
+- Microscopic Modeling
 date: "2020-12-10T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
