@@ -18,118 +18,180 @@ date_format = "Jan 2006"
 #   Leave other parameters empty if not required.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
-[[item]]
+  [[item]]
+  organization = "Ministry of Education of the People's Republic of China"
+  title = "National Scholarship"
+  date_start = "2018-11-11"
+  date_end = ""
+  description = "" 
+  
+  [[item]]
+  organization = "State Key Laboratory of Electrical Insulation and Power Equipment"
+  title = "National Special Scholarship"
+  date_start = "2018-11-11"
+  date_end = ""
+  description = "" 
+  
+  [[item]]
+  organization = "Ministry of Education of the People's Republic of China"
+  title = "National Scholarship"
+  date_start = "2017-11-03"
+  date_end = ""
+  description = "" 
+  
+  [[item]]
+  organization = "National Mathematical Contest in Modeling Association"
+  title = "National Mathematical Contest in Modeling for Graduated students"
+  date_start = "2017-09-01"
+  date_end = ""
+  description = "Outstanding Award" 
+  
+  [[item]]
   organization = "Xi'an Jiaotong University"
   title = "Outstanding Graduate Student"
   date_start = "2019-06-23"
   date_end = ""
   description = ""
+
+  [[item]]
+  organization = "Education Department of Shaanxi Provincial Government"
+  title = "Provincial Special Scholarship"
+  date_start = "2015-09-23"
+  date_end = ""
+  description = ""  
+
+  [[item]]
+  organization = "Consortium for Mathematics and Its Applications"
+  title = "International Mathematical Contest in Modeling"
+  date_start = "2015-09-23"
+  date_end = ""
+  description = "Honorable Menstion"  
+
+  [[item]]
+  organization = "Mathorcup MCM Association"
+  title = "5th Mathorcup international Mathematical Contest in Modeling"
+  date_start = "2015-05-23"
+  date_end = ""
+  description = ""  
+
+  [[item]]
+  organization = "Education Department of Shaanxi Provincial Government"
+  title = "E+H Special Scholarship"
+  date_start = "2014-09-23"
+  date_end = ""
+  description = ""  
   
-[[item]]
-  organization = "Ministry of Education of the People's Republic of China"
-  title = "Neural Networks and Deep Learning"
-  date_start = "2019-05-03"
+  [[item]]
+  organization = "National Mathematical Contest in Modeling Association"
+  title = "National Mathematical Contest in Modeling for Graduated students"
+  date_start = "2014-11-23"
   date_end = ""
-  description = ""
+  description = ""  
 
-[[item]]
-  organization = "Coursera"
-  organization_url = "https://www.coursera.org"
-  title = "Deep Learning Specialization"
-  url = ""
-  # certificate_url = "https://coursera.org/share/51b2f1cc72b5a1e442861786caff0095"
-  date_start = "2019-04-10"
+  [[item]]
+  organization = "National College Student Debate Association"
+  title = "National Undergraduate Debate Contest"
+  date_start = "2014-09-23"
   date_end = ""
-  description = "The Deep Learning Specialization is designed to prepare learners to participate in the development of cutting-edge AI technology, and to understand the capability, the challenges, and the consequences of the rise of deep learning. Through five interconnected courses, learners develop a profound knowledge of the hottest AI algorithms, mastering deep learning from its foundations (neural networks) to its industry applications (Computer Vision, Natural Language Processing, Speech Recognition, etc.)."
+  description = " Best debater"  
+  
+  [[item]]
+  organization = "Xi'an Jiaotong University"
+  title = "First-class Scholarship"
+  date_start = "2018-10-21"
+  date_end = ""
+  description = "" 
 
-[[item]]
-  organization = "Coursera"
-  organization_url = "https://www.coursera.org"
-  title = "Neural Networks and Deep Learning"
-  url = ""
-  certificate_url = "https://coursera.org/share/fd20c8ef9faa24ed6bfb0378a9557f41"
-  date_start = "2019-05-03"
+  [[item]]
+  organization = "Xi'an Jiaotong University"
+  title = "Excellent Graduate Student Award"
+  date_start = "2018-10-21"
   date_end = ""
-  description = ""
+  description = "" 
 
-[[item]]
-  organization = "Coursera"
-  organization_url = "https://www.coursera.org"
-  title = "Structuring Machine Learning Projects"
-  url = ""
-  certificate_url = "https://coursera.org/share/88aee2cda87ab6dbe1e73a43ccd5a55d"
-  date_start = "2019-05-03"
+  [[item]]
+  organization = "Xi'an Jiaotong University"
+  title = ""
+  date_start = "2019-06-23"
   date_end = ""
-  description = ""
+  description = "" 
 
-[[item]]
-  organization = "Coursera"
-  organization_url = "https://www.coursera.org"
-  title = "Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization"
-  url = ""
-  certificate_url = "https://coursera.org/share/6aaae41ad28096a27631e9ca39c317cc"
-  date_start = "2019-05-02"
+  [[item]]
+  organization = "Xi'an Jiaotong University"
+  title = "First-class Scholarship"
+  date_start = "2017-09-23"
   date_end = ""
-  description = ""
-
-[[item]]
-  organization = "Coursera"
-  organization_url = "https://www.coursera.org"
-  title = "Convolutional Neural Networks"
-  url = ""
-  certificate_url = "https://coursera.org/share/d36ce49c6e09779314ccb1f9e79edae0"
-  date_start = "2019-05-07"
+  description = "" 
+  
+  [[item]]
+  organization = "Xi'an Jiaotong University"
+  title = "Excellent Graduate Student Award"
+  date_start = "2017-09-23"
   date_end = ""
-  description = ""
-
-[[item]]
-  organization = "Coursera"
-  organization_url = "https://www.coursera.org"
-  title = "Sequence Models"
-  url = ""
-  certificate_url = "https://coursera.org/share/a5b48c490f37f12c6613f5ebe5479111"
-  date_start = "2019-05-10"
+  description = ""  
+  
+  [[item]]
+  organization = "Xi'an Jiaotong University"
+  title = "Scholarship for Outstanding Freshman"
+  date_start = "2016 -09-23"
   date_end = ""
-  description = ""
-
-[[item]]
-  organization = "Coursera"
-  organization_url = "https://www.coursera.org"
-  title = "Machine Learning"
-  url = ""
-  certificate_url = "https://coursera.org/share/033ae19470783a256b1555fa563202dd"
-  date_start = "2018-01-24"
+  description = ""  
+  
+  [[item]]
+  organization = "Northwestern Polytechnical University"
+  title = "Outstanding undergraduate student"
+  date_start = "2016-09-23"
   date_end = ""
-  description = ""
-
-[[item]]
-  organization = "Coursera"
-  organization_url = "https://www.coursera.org"
-  title = "Introduction to Power Electronics"
-  url = ""
-  certificate_url = "https://coursera.org/share/933fc047f2391942a36b8350ad824f5f"
-  date_start = "2016-11-22"
+  description = ""  
+  
+  [[item]]
+  organization = "Northwestern Polytechnical University"
+  title = "First-class Scholarship"
+  date_start = "2015-09-23"
   date_end = ""
-  description = ""
-
-[[item]]
-  organization = "Coursera"
-  organization_url = "https://www.coursera.org"
-  title = "Introduction to Programming with MATLAB"
-  url = ""
-  certificate_url = "https://coursera.org/share/a1dfdbea64f2833cfb45397aa29764c0"
-  date_start = "2016-12-14"
+  description = ""  
+    
+  [[item]]
+  organization = "Northwestern Polytechnical University"
+  title = "Excellent Undergraduate Student"
+  date_start = "2015-09-23"
   date_end = ""
-  description = ""
-
-[[item]]
-  organization = "Coursera"
-  organization_url = "https://www.coursera.org"
-  title = "Operating Systems"
-  url = ""
-  certificate_url = "https://coursera.org/share/3f375c480dba093e6142e516a607e5ab"
-  date_start = "2016-12-12"
+  description = ""  
+    
+  [[item]]
+  organization = "Northwestern Polytechnical University"
+  title = "First-class Scholarship"
+  date_start = "2014-09-23"
   date_end = ""
-  description = ""
+  description = ""  
+      
+  [[item]]
+  organization = "United Nations Association of China"
+  title = "Japan, Korea and China Forum"
+  date_start = "2014-10-23"
+  date_end = ""
+  description = " Excellent World Teenager"  
+      
+  [[item]]
+  organization = "Northwestern Polytechnical University"
+  title = "Excellent Undergraduate Student"
+  date_start = "2014-09-23"
+  date_end = ""
+  description = ""  
+        
+  [[item]]
+  organization = "Northwestern Polytechnical University"
+  title = "First-class Scholarship"
+  date_start = "2014-09-23"
+  date_end = ""
+  description = ""  
+        
+  [[item]]
+  organization = "Northwestern Polytechnical University"
+  title = "Excellent Undergraduate Student"
+  date_start = "2014-09-23"
+  date_end = ""
+  description = ""  
+  
 
 +++
