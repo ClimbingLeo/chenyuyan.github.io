@@ -131,7 +131,7 @@ date_format = "Jan 2006"
 [[item]]
  organization = "Xi'an Jiaotong University"
  title = "Scholarship for Outstanding Freshman"
- date_start = "2016 -09-23"
+ date_start = "2016-09-23"
  date_end = ""
  description = ""  
 
