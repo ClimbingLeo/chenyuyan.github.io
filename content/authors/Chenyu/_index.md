@@ -20,10 +20,10 @@ bio: I am Chenyu Yan from Xi'an Jiaotong University.
 
 interests:
 - Functional/Nano Material
-- Microscopic Modeling (electron transport, Energy transfer)
+- Microscopic Modeling
 - Electrochemistry
 - Power Transmission
-- Machine Learning Applied for Grid Load Forecast
+- Machine Learning
 
 education:
   
