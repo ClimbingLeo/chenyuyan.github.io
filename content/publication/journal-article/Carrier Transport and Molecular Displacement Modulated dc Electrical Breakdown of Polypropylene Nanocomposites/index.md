@@ -1,7 +1,6 @@
 ---
 title: "Carrier Transport and Molecular Displacement Modulated dc Electrical Breakdown of Polypropylene Nanocomposites"
 date: 2018-10-01
-doi: "First Student Author"
 publishDate: 2020-01-14T06:52:54.588536Z
 authors: ["Daomin Min", "Chenyu", "Rui Mi", "Chao Ma", "Yin Huang", "Shengtao Li", "Qingzhou Wu", "Zhaoliang Xing"]
 publication_types: ["2"]
@@ -10,5 +9,6 @@ featured: false
 
 publication: "*Polymers*"
 weight: 90
+"First Student Author"
 ---
 
