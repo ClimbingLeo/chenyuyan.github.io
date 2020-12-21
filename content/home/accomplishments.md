@@ -30,6 +30,7 @@ date_format = "Jan 2006"
  date_start = "2018-11-11"
  date_end = ""
  description = "" 
+
 [[item]]
  organization = "Ministry of Education of the People's Republic of China"
  title = "National Scholarship"
@@ -94,6 +95,13 @@ date_format = "Jan 2006"
  description = " Best debater"  
 
 [[item]]
+ organization = "United Nations Association of China"
+ title = "Japan, Korea and China Forum"
+ date_start = "2014-10-23"
+ date_end = ""
+ description = " Excellent World Teenager"  
+
+[[item]]
  organization = "Xi'an Jiaotong University"
  title = "First-class Scholarship"
  date_start = "2018-10-21"
@@ -104,13 +112,6 @@ date_format = "Jan 2006"
  organization = "Xi'an Jiaotong University"
  title = "Excellent Graduate Student Award"
  date_start = "2018-10-21"
- date_end = ""
- description = "" 
-
-[[item]]
- organization = "Xi'an Jiaotong University"
- title = ""
- date_start = "2019-06-23"
  date_end = ""
  description = "" 
 
@@ -162,12 +163,7 @@ date_format = "Jan 2006"
  date_end = ""
  description = ""  
       
-[[item]]
- organization = "United Nations Association of China"
- title = "Japan, Korea and China Forum"
- date_start = "2014-10-23"
- date_end = ""
- description = " Excellent World Teenager"  
+
       
 [[item]]
  organization = "Northwestern Polytechnical University"
