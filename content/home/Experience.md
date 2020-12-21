@@ -25,7 +25,6 @@ date_format = "Jan 2006"
   date_start = "2019-08-31"
   date_end = ""
   description = """
-  Responsibilities include:
 
   * Data Science and Engineering
   * Power Transmission Research
@@ -39,8 +38,7 @@ date_format = "Jan 2006"
     date_start = "2015-03-01"
     date_end = "2019-06-01"
     description = """
-    Responsibilities include:
-  
+    
   * Marketing and Communication
   * Academic Training
   * Organize Model UN conferences
@@ -53,8 +51,7 @@ date_format = "Jan 2006"
     date_start = "2016-09-01"
     date_end = "2019-07-01"
     description = """
-    Responsibilities include:
-
+    
   * Power Transmission
   * Functional/Nano Material
   * Microscopic Modeling
@@ -67,8 +64,7 @@ date_format = "Jan 2006"
     date_start = "2012-09-01"
     date_end = "2016-07-01"
     description = """
-    Responsibilities include:
-
+    
   * Lithium Battery
   * Control Theory
   * Industrial Optimization
