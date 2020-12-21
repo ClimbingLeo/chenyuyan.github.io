@@ -23,7 +23,7 @@ date_format = "Jan 2006"
   company_url = "https://www.sgcc.org/"
   location = "Suzhou, PRC"
   date_start = "2019-08-31"
-  date_end = "2020-12-15"
+  date_end = ""
   description = """
   Responsibilities include:
 
@@ -32,45 +32,46 @@ date_format = "Jan 2006"
   * Machine Learning & Deep Learning
 		"""
 [[experience]]
-  title = "Vice President"
-  company = "WELAND International Education & Consulting Company"
-  company_url = "http://welandedu.com.cn/"
-  location = "Beijing, PRC"
-  date_start = "2015-03-01"
-  date_end = "2019-06-01"
-  description = """
-  Responsibilities include:
+    title = "Vice President"
+    company = "WELAND International Education & Consulting Corporation"
+    company_url = "http://welandedu.com.cn/"
+    location = "Beijing, PRC"
+    date_start = "2015-03-01"
+    date_end = "2019-06-01"
+    description = """
+    Responsibilities include:
   
   * Marketing and Communication
   * Academic Training
   * Organize Model UN conferences
 		"""
 [[experience]]
-  title = "Graduate Student"
-  company = "Xi'an Jiaotong University"
-  company_url = "http://en.xjtu.edu.cn/"
-  location = "Xi'an, PRC"
-  date_start = "2016-09-01"
-  date_end = "2019-07-01"
-  description = """
-  Responsibilities include:
+    title = "Graduate Student"
+    company = "Xi'an Jiaotong University"
+    company_url = "http://en.xjtu.edu.cn/"
+    location = "Xi'an, PRC"
+    date_start = "2016-09-01"
+    date_end = "2019-07-01"
+    description = """
+    Responsibilities include:
 
   * Power Transmission
   * Functional/Nano Material
   * Microscopic Modeling
 		"""
 [[experience]]
-  title = "Undergraduate Student"
-  company = "Northwestern Polytechnical University"
-  company_url = "http://en.nwpu.edu.cn/"
-  location = "Xi'an, PRC"
-  date_start = "2012-09-01"
-  date_end = "2016-07-01"
-  description = """
-  Responsibilities include:
+    title = "Undergraduate Student"
+    company = "Northwestern Polytechnical University"
+    company_url = "http://en.nwpu.edu.cn/"
+    location = "Xi'an, PRC"
+    date_start = "2012-09-01"
+    date_end = "2016-07-01"
+    description = """
+    Responsibilities include:
 
   * Lithium Battery
   * Control Theory
   * Industrial Optimization
 		"""
+
 +++
