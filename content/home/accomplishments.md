@@ -17,7 +17,6 @@ date_format = "Jan 2006"
 #   `title`, `organization` and `date_start` are the required parameters.
 #   Leave other parameters empty if not required.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
-
 [[item]]
   organization = "Ministry of Education of the People's Republic of China"
   title = "National Scholarship"
@@ -26,7 +25,7 @@ date_format = "Jan 2006"
   description = "" 
 
 [[item]]
-  organization = "State Key Laboratory of Electrical Insulation and Power Equipment"
+  organization = "State Key Laboratory"
   title = "National Special Scholarship"
   date_start = "2018-11-11"
   date_end = ""
