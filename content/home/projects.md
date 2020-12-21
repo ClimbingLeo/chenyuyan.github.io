@@ -38,12 +38,12 @@ subtitle = ""
      tag = "Nano Material"
 
    [[content.filter_button]]
-     name = "Lithium battery"
-     tag = "Lithium battery"
+     name = "Lithium Battery"
+     tag = "Lithium Battery"
 
    [[content.filter_button]]
      name = "Insulating Material"
-     tag = "Insulation"
+     tag = "Insulation Material"
 
    [[content.filter_button]]
      name = "Microscopic Modeling"
