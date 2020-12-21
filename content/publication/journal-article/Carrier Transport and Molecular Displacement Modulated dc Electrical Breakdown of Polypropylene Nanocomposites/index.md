@@ -9,6 +9,5 @@ featured: false
 
 publication: "*Polymers*"
 weight: 90
-"First Student Author"
 ---
 
