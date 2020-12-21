@@ -1,6 +1,6 @@
 ---
-title: "Thickness Dependent dc Electrical Breakdown of Polyimide Modulated by Charge Transport and Molecular Displacement"
-date: 2020-09-01
+title: "Numerical Simulation on Dc Breakdown of Polyimide Based on Charge Transport and Molecular Chain Displacement"
+date: 2019-09-01
 publishDate: 2020-01-14T06:52:54.588536Z
 authors: ["Yuwei Li", "Chenyu", "Daomin Min", "Shengtao Li", "Zhaoliang Xing", "Chong Zhang "]
 publication_types: ["1"]
