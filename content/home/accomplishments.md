@@ -93,5 +93,60 @@ date_format = "Jan 2006"
  date_end = ""
  description = " Best debater"  
 
+[[item]]
+ organization = "Xi'an Jiaotong University"
+ title = "First-class Scholarship"
+ date_start = "2018-10-21"
+ date_end = ""
+ description = "" 
+
+[[item]]
+ organization = "Xi'an Jiaotong University"
+ title = "Excellent Graduate Student Award"
+ date_start = "2018-10-21"
+ date_end = ""
+ description = "" 
+
+[[item]]
+ organization = "Xi'an Jiaotong University"
+ title = ""
+ date_start = "2019-06-23"
+ date_end = ""
+ description = "" 
+
+[[item]]
+ organization = "Xi'an Jiaotong University"
+ title = "First-class Scholarship"
+ date_start = "2017-09-23"
+ date_end = ""
+ description = "" 
+
+[[item]]
+ organization = "Xi'an Jiaotong University"
+ title = "Excellent Graduate Student Award"
+ date_start = "2017-09-23"
+ date_end = ""
+ description = ""  
+
+[[item]]
+ organization = "Xi'an Jiaotong University"
+ title = "Scholarship for Outstanding Freshman"
+ date_start = "2016 -09-23"
+ date_end = ""
+ description = ""  
+
+[[item]]
+ organization = "Northwestern Polytechnical University"
+ title = "Outstanding undergraduate student"
+ date_start = "2016-09-23"
+ date_end = ""
+ description = ""  
+
+[[item]]
+ organization = "Northwestern Polytechnical University"
+ title = "First-class Scholarship"
+ date_start = "2015-09-23"
+ date_end = ""
+ description = ""  
 
 +++
